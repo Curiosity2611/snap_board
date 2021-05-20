@@ -1,0 +1,5 @@
+#back up files
+*.sch-bak
+
+#cache lib files
+*.lib
