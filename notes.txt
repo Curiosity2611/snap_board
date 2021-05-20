@@ -1,0 +1,6 @@
+Date: 20/05/2021
+Project Name: Snap Card
+
+MPU Part Number: STM32MP157CAC3
+Package: TFBGA361 12x12, 361 balls pitch 0.5 mm
+

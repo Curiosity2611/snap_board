@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "SNAP PROJECT OVERVIEW"
 Date "2021-05-20"
 Rev "1.0.0"
@@ -316,7 +316,7 @@ Text Notes 750  7600 0    50   ~ 0
 $Sheet
 S 12500 50   1600 900 
 U 60A6F432
-F0 "Snap Card Block Diagram" 79
-F1 "Snap Card Block Diagram.sch" 79
+F0 "Top Sheet" 79
+F1 "Top Sheet.sch" 79
 $EndSheet
 $EndSCHEMATC
