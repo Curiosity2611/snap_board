@@ -20,4 +20,5 @@
   (lib (name U_Regulator_Switching)(type Legacy)(uri ${KICAD_USER_SYM_DIR}/U_Regulator_Switching.lib)(options "")(descr ""))
   (lib (name U_Transistor_BJT)(type Legacy)(uri ${KICAD_USER_SYM_DIR}/U_Transistor_BJT.lib)(options "")(descr ""))
   (lib (name U_Transistor_FET)(type Legacy)(uri ${KICAD_USER_SYM_DIR}/U_Transistor_FET.lib)(options "")(descr ""))
+  (lib (name U_Switch)(type Legacy)(uri ${KICAD_USER_SYM_DIR}/U_Switch.lib)(options "")(descr ""))
 )

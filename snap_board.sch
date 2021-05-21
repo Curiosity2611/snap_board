@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "SNAP PROJECT OVERVIEW"
 Date "2021-05-20"
 Rev "1.0.0"
@@ -330,5 +330,11 @@ S 12500 3050 1550 900
 U 60A9AEDE
 F0 "PMIC Power" 50
 F1 "PMIC Power.sch" 50
+$EndSheet
+$Sheet
+S 12500 4350 1550 950 
+U 60DF6F52
+F0 "Connectors" 50
+F1 "Connectors.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -1,0 +1,238 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L U_Connector:DF40C-70DP-0.4V(51) U3
+U 1 1 60DF7757
+P 3000 3800
+F 0 "U3" H 3000 5625 50  0000 C CNN
+F 1 "DF40C-70DP-0.4V(51)" H 3000 5534 50  0000 C CNN
+F 2 "" H 4150 4950 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf" H 4150 4950 50  0001 C CNN
+	1    3000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Connector:DF40C-70DP-0.4V(51) U4
+U 1 1 60DF831B
+P 5700 3800
+F 0 "U4" H 5700 5625 50  0000 C CNN
+F 1 "DF40C-70DP-0.4V(51)" H 5700 5534 50  0000 C CNN
+F 2 "" H 6850 4950 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf" H 6850 4950 50  0001 C CNN
+	1    5700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Connector:DF40C-24DP-0.4V(51) U2
+U 1 1 60DFEA38
+P 8550 3650
+F 0 "U2" H 8550 4515 50  0000 C CNN
+F 1 "DF40C-24DP-0.4V(51)" H 8550 4424 50  0000 C CNN
+F 2 "" H 8900 4350 50  0001 L CNN
+F 3 "http://www.hirose.co.jp/cataloge_hp/ed_DF40_20140305.pdf" H 8900 4250 50  0001 L CNN
+F 4 "Board to Board & Mezzanine Connectors 24P SMT HEADER NO FITTING, NO BOSS" H 8900 4150 50  0001 L CNN "Description"
+F 5 "1.29" H 8900 4050 50  0001 L CNN "Height"
+F 6 "798-DF40C24DP0.4V51" H 8900 3950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF40C-24DP-04V51?qs=eDUdFcBPps3f69rEdR8luQ%3D%3D" H 8900 3850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Hirose" H 8900 3750 50  0001 L CNN "Manufacturer_Name"
+F 9 "DF40C-24DP-0.4V(51)" H 8900 3650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8550 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2650 2200
+NoConn ~ 2650 2300
+NoConn ~ 2650 2400
+NoConn ~ 2650 2500
+NoConn ~ 2650 2600
+NoConn ~ 2650 2700
+NoConn ~ 2650 2800
+NoConn ~ 2650 2900
+NoConn ~ 2650 3000
+NoConn ~ 2650 3100
+NoConn ~ 2650 3200
+NoConn ~ 2650 3300
+NoConn ~ 2650 3400
+NoConn ~ 2650 3500
+NoConn ~ 2650 3600
+NoConn ~ 2650 3700
+NoConn ~ 2650 3800
+NoConn ~ 2650 3900
+NoConn ~ 2650 4000
+NoConn ~ 2650 4100
+NoConn ~ 2650 4200
+NoConn ~ 2650 4300
+NoConn ~ 2650 4400
+NoConn ~ 2650 4500
+NoConn ~ 2650 4600
+NoConn ~ 2650 4700
+NoConn ~ 2650 4800
+NoConn ~ 2650 4900
+NoConn ~ 2650 5000
+NoConn ~ 2650 5100
+NoConn ~ 2650 5200
+NoConn ~ 2650 5300
+NoConn ~ 2650 5400
+NoConn ~ 2650 5500
+NoConn ~ 2650 5600
+NoConn ~ 3350 2200
+NoConn ~ 3350 2300
+NoConn ~ 3350 2400
+NoConn ~ 3350 2500
+NoConn ~ 3350 2600
+NoConn ~ 3350 2700
+NoConn ~ 3350 2800
+NoConn ~ 3350 2900
+NoConn ~ 3350 3000
+NoConn ~ 3350 3100
+NoConn ~ 3350 3200
+NoConn ~ 3350 3300
+NoConn ~ 3350 3400
+NoConn ~ 3350 3500
+NoConn ~ 3350 3600
+NoConn ~ 3350 3700
+NoConn ~ 3350 3800
+NoConn ~ 3350 3900
+NoConn ~ 3350 4000
+NoConn ~ 3350 4100
+NoConn ~ 3350 4200
+NoConn ~ 3350 4300
+NoConn ~ 3350 4400
+NoConn ~ 3350 4500
+NoConn ~ 3350 4600
+NoConn ~ 3350 4700
+NoConn ~ 3350 4800
+NoConn ~ 3350 4900
+NoConn ~ 3350 5000
+NoConn ~ 3350 5100
+NoConn ~ 3350 5200
+NoConn ~ 3350 5300
+NoConn ~ 3350 5400
+NoConn ~ 3350 5500
+NoConn ~ 3350 5600
+NoConn ~ 5350 2400
+NoConn ~ 5350 2600
+NoConn ~ 5350 2900
+NoConn ~ 5350 3000
+NoConn ~ 5350 3100
+NoConn ~ 5350 3200
+NoConn ~ 5350 3300
+NoConn ~ 5350 3400
+NoConn ~ 5350 3500
+NoConn ~ 5350 3600
+NoConn ~ 5350 3700
+NoConn ~ 5350 3800
+NoConn ~ 5350 3900
+NoConn ~ 5350 4000
+NoConn ~ 5350 4100
+NoConn ~ 5350 4200
+NoConn ~ 5350 4300
+NoConn ~ 5350 4400
+NoConn ~ 5350 4500
+NoConn ~ 5350 4600
+NoConn ~ 5350 4700
+NoConn ~ 5350 4800
+NoConn ~ 5350 4900
+NoConn ~ 5350 5000
+NoConn ~ 5350 5100
+NoConn ~ 5350 5200
+NoConn ~ 5350 5300
+NoConn ~ 5350 5400
+NoConn ~ 5350 5500
+NoConn ~ 5350 5600
+NoConn ~ 6050 2200
+NoConn ~ 6050 2300
+NoConn ~ 6050 2400
+NoConn ~ 6050 2500
+NoConn ~ 6050 2600
+NoConn ~ 6050 2700
+NoConn ~ 6050 2800
+NoConn ~ 6050 2900
+NoConn ~ 6050 3000
+NoConn ~ 6050 3100
+NoConn ~ 6050 3200
+NoConn ~ 6050 3300
+NoConn ~ 6050 3400
+NoConn ~ 6050 3500
+NoConn ~ 6050 3600
+NoConn ~ 6050 3700
+NoConn ~ 6050 3800
+NoConn ~ 6050 3900
+NoConn ~ 6050 4000
+NoConn ~ 6050 4100
+NoConn ~ 6050 4200
+NoConn ~ 6050 4300
+NoConn ~ 6050 4400
+NoConn ~ 6050 4500
+NoConn ~ 6050 4600
+NoConn ~ 6050 4700
+NoConn ~ 6050 4800
+NoConn ~ 6050 4900
+NoConn ~ 6050 5000
+NoConn ~ 6050 5100
+NoConn ~ 6050 5200
+NoConn ~ 6050 5300
+NoConn ~ 6050 5400
+NoConn ~ 6050 5500
+NoConn ~ 6050 5600
+NoConn ~ 8050 3050
+NoConn ~ 8050 3150
+NoConn ~ 8050 3250
+NoConn ~ 8050 3350
+NoConn ~ 8050 3450
+NoConn ~ 8050 3550
+NoConn ~ 8050 3650
+NoConn ~ 8050 3750
+NoConn ~ 8050 3850
+NoConn ~ 8050 3950
+NoConn ~ 8050 4050
+NoConn ~ 8050 4150
+NoConn ~ 8050 4250
+NoConn ~ 8050 4350
+NoConn ~ 9050 3050
+NoConn ~ 9050 3150
+NoConn ~ 9050 3250
+NoConn ~ 9050 3350
+NoConn ~ 9050 3450
+NoConn ~ 9050 3550
+NoConn ~ 9050 3650
+NoConn ~ 9050 3750
+NoConn ~ 9050 3850
+NoConn ~ 9050 3950
+NoConn ~ 9050 4050
+NoConn ~ 9050 4150
+NoConn ~ 9050 4250
+NoConn ~ 9050 4350
+Text GLabel 5150 2300 0    50   Input ~ 0
+I2C4_SCL
+Text GLabel 5150 2200 0    50   BiDi ~ 0
+I2C4_SDS
+Text GLabel 5150 2500 0    50   Input ~ 0
+POWER_ON
+Text GLabel 5150 2700 0    50   Input ~ 0
+nPONKEY
+Text GLabel 5150 2800 0    50   Input ~ 0
+NRST
+Wire Wire Line
+	5150 2200 5350 2200
+Wire Wire Line
+	5150 2300 5350 2300
+Wire Wire Line
+	5150 2500 5350 2500
+Wire Wire Line
+	5150 2700 5350 2700
+Wire Wire Line
+	5150 2800 5350 2800
+$EndSCHEMATC
