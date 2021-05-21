@@ -622,12 +622,12 @@ $EndComp
 $Comp
 L U_Power:PMIC_VOUT4_3V3 #PWR08
 U 1 1 60B8D556
-P 7000 2300
-F 0 "#PWR08" H 7000 2150 50  0001 C CNN
-F 1 "PMIC_VOUT4_3V3" V 7015 2428 50  0000 L CNN
-F 2 "" H 7000 2300 50  0001 C CNN
-F 3 "" H 7000 2300 50  0001 C CNN
-	1    7000 2300
+P 7500 2300
+F 0 "#PWR08" H 7500 2150 50  0001 C CNN
+F 1 "PMIC_VOUT4_3V3" V 7515 2428 50  0000 L CNN
+F 2 "" H 7500 2300 50  0001 C CNN
+F 3 "" H 7500 2300 50  0001 C CNN
+	1    7500 2300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -644,34 +644,34 @@ $EndComp
 $Comp
 L U_Power:PMIC_VOUT1_VDD_CORE #PWR02
 U 1 1 60B9FC8C
-P 7000 1550
-F 0 "#PWR02" H 7000 1400 50  0001 C CNN
-F 1 "PMIC_VOUT1_VDD_CORE" V 7015 1678 50  0000 L CNN
-F 2 "" H 7000 1550 50  0001 C CNN
-F 3 "" H 7000 1550 50  0001 C CNN
-	1    7000 1550
+P 7500 1550
+F 0 "#PWR02" H 7500 1400 50  0001 C CNN
+F 1 "PMIC_VOUT1_VDD_CORE" V 7515 1678 50  0000 L CNN
+F 2 "" H 7500 1550 50  0001 C CNN
+F 3 "" H 7500 1550 50  0001 C CNN
+	1    7500 1550
 	0    1    1    0   
 $EndComp
 $Comp
 L U_Power:PMIC_VOUT2_VDD_DDR #PWR05
 U 1 1 60BA7E12
-P 7000 1800
-F 0 "#PWR05" H 7000 1650 50  0001 C CNN
-F 1 "PMIC_VOUT2_VDD_DDR" V 7015 1928 50  0000 L CNN
-F 2 "" H 7000 1800 50  0001 C CNN
-F 3 "" H 7000 1800 50  0001 C CNN
-	1    7000 1800
+P 7500 1800
+F 0 "#PWR05" H 7500 1650 50  0001 C CNN
+F 1 "PMIC_VOUT2_VDD_DDR" V 7515 1928 50  0000 L CNN
+F 2 "" H 7500 1800 50  0001 C CNN
+F 3 "" H 7500 1800 50  0001 C CNN
+	1    7500 1800
 	0    1    1    0   
 $EndComp
 $Comp
 L U_Power:PMIC_VOUT3_VDD #PWR07
 U 1 1 60BAB14D
-P 7000 2050
-F 0 "#PWR07" H 7000 1900 50  0001 C CNN
-F 1 "PMIC_VOUT3_VDD" V 7015 2178 50  0000 L CNN
-F 2 "" H 7000 2050 50  0001 C CNN
-F 3 "" H 7000 2050 50  0001 C CNN
-	1    7000 2050
+P 7500 2050
+F 0 "#PWR07" H 7500 1900 50  0001 C CNN
+F 1 "PMIC_VOUT3_VDD" V 7515 2178 50  0000 L CNN
+F 2 "" H 7500 2050 50  0001 C CNN
+F 3 "" H 7500 2050 50  0001 C CNN
+	1    7500 2050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1061,13 +1061,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 3650 6200 3650
 Wire Wire Line
-	6900 2300 7000 2300
+	6900 2300 7500 2300
 Wire Wire Line
-	6900 2050 7000 2050
+	6900 2050 7500 2050
 Wire Wire Line
-	6900 1800 7000 1800
+	6900 1800 7500 1800
 Wire Wire Line
-	6900 1550 7000 1550
+	6900 1550 7500 1550
 $Comp
 L U_Power:PMIC_VOUT1_VDD_CORE #PWR062
 U 1 1 60B3132A
@@ -1415,7 +1415,7 @@ F 3 "" H 9350 3100 50  0001 C CNN
 $EndComp
 Text Notes 1150 1700 0    118  ~ 24
 Input Power Caps
-Text Notes 8750 1700 0    118  ~ 24
+Text Notes 8850 2000 0    118  ~ 24
 Output Power Caps
 Text Notes 600  6050 0    118  ~ 24
 ERC Power Flags
@@ -1538,4 +1538,50 @@ Wire Wire Line
 	4500 3700 3750 3700
 Wire Wire Line
 	3750 3800 4500 3800
+Text GLabel 3450 5450 0    50   Output ~ 0
+PA0_WKUP
+Text GLabel 3500 5650 0    50   Input ~ 0
+PMIC_WAKEUP
+Text Notes 3500 7050 0    50   ~ 0
+5. Default = 1.8V; Imax = 800mA; NOT ON BY DEFAULT.
+Text Notes 3450 6500 0    118  ~ 24
+Notes
+Text Notes 3500 7150 0    50   ~ 0
+6. Default = 2.9V; Imax = 800mA
+Text Notes 3500 7250 0    50   ~ 0
+7. Default = 1.8V; Imax = 150mA; NOT ON BY DEFAULT
+Text Notes 3500 7350 0    50   ~ 0
+8. Default = 3.3V; Imax = 200mA
+Text Notes 3500 7450 0    50   ~ 0
+9. Default = 2.9V; Imax = 800mA
+Text Notes 3450 7550 0    50   ~ 0
+10. Default = 1.0V; Imax = 350mA; NOT ON BY DEFAULT
+Text Notes 6350 3650 0    50   ~ 0
+See Note 10
+Text Notes 6350 3550 0    50   ~ 0
+See Note 9
+Text Notes 6350 3450 0    50   ~ 0
+See Note 8
+Text Notes 6350 3350 0    50   ~ 0
+See Note 7
+Text Notes 6350 3250 0    50   ~ 0
+See Note 6
+Text Notes 6350 3150 0    50   ~ 0
+See Note 5
+Text Notes 7000 1550 0    50   ~ 0
+See Note 1
+Text Notes 7000 1800 0    50   ~ 0
+See Note 2
+Text Notes 7000 2050 0    50   ~ 0
+See Note 3
+Text Notes 7000 2300 0    50   ~ 0
+See Note 4
+Text Notes 3500 6650 0    50   ~ 0
+1. Default = 1.2V; Imax = 2000mA
+Text Notes 3500 6750 0    50   ~ 0
+2. Default = 1.1V; Imax = 1600mA; NOT ON BY DEFAULT
+Text Notes 3500 6850 0    50   ~ 0
+3. Default = 1.8V; Imax = 1000mA
+Text Notes 3500 6950 0    50   ~ 0
+4. Default = 3.3V; Imax = 3000mA
 $EndSCHEMATC
