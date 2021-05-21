@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title "SNAP PROJECT OVERVIEW"
 Date "2021-05-20"
 Rev "1.0.0"
@@ -318,5 +318,17 @@ S 12500 50   1600 900
 U 60A6F432
 F0 "Top Sheet" 79
 F1 "Top Sheet.sch" 79
+$EndSheet
+$Sheet
+S 12500 1600 1550 1000
+U 60A73E6A
+F0 "MPU Power & Reset" 50
+F1 "MPU Power & Reset.sch" 50
+$EndSheet
+$Sheet
+S 12500 3050 1550 900 
+U 60A9AEDE
+F0 "PMIC Power" 50
+F1 "PMIC Power.sch" 50
 $EndSheet
 $EndSCHEMATC
