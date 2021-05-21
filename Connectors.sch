@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L U_Connector:DF40C-70DP-0.4V(51) U3
+L U_Connector:DF40C-70DP-0.4V(51) U4
 U 1 1 60DF7757
 P 3000 3800
-F 0 "U3" H 3000 5625 50  0000 C CNN
+F 0 "U4" H 3000 5625 50  0000 C CNN
 F 1 "DF40C-70DP-0.4V(51)" H 3000 5534 50  0000 C CNN
 F 2 "" H 4150 4950 50  0001 C CNN
 F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf" H 4150 4950 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L U_Connector:DF40C-70DP-0.4V(51) U4
+L U_Connector:DF40C-70DP-0.4V(51) U5
 U 1 1 60DF831B
 P 5700 3800
-F 0 "U4" H 5700 5625 50  0000 C CNN
+F 0 "U5" H 5700 5625 50  0000 C CNN
 F 1 "DF40C-70DP-0.4V(51)" H 5700 5534 50  0000 C CNN
 F 2 "" H 6850 4950 50  0001 C CNN
 F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf" H 6850 4950 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L U_Connector:DF40C-24DP-0.4V(51) U2
+L U_Connector:DF40C-24DP-0.4V(51) U3
 U 1 1 60DFEA38
 P 8550 3650
-F 0 "U2" H 8550 4515 50  0000 C CNN
+F 0 "U3" H 8550 4515 50  0000 C CNN
 F 1 "DF40C-24DP-0.4V(51)" H 8550 4424 50  0000 C CNN
 F 2 "" H 8900 4350 50  0001 L CNN
 F 3 "http://www.hirose.co.jp/cataloge_hp/ed_DF40_20140305.pdf" H 8900 4250 50  0001 L CNN
@@ -219,8 +219,6 @@ Text GLabel 5150 2300 0    50   Input ~ 0
 I2C4_SCL
 Text GLabel 5150 2200 0    50   BiDi ~ 0
 I2C4_SDS
-Text GLabel 5150 2500 0    50   Input ~ 0
-POWER_ON
 Text GLabel 5150 2700 0    50   Input ~ 0
 nPONKEY
 Text GLabel 5150 2800 0    50   Input ~ 0
@@ -230,9 +228,8 @@ Wire Wire Line
 Wire Wire Line
 	5150 2300 5350 2300
 Wire Wire Line
-	5150 2500 5350 2500
-Wire Wire Line
 	5150 2700 5350 2700
 Wire Wire Line
 	5150 2800 5350 2800
+NoConn ~ 5350 2500
 $EndSCHEMATC
