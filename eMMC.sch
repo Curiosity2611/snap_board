@@ -1,0 +1,139 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L U_Memory_eMMC:S40FC004C1B2C00000 U?
+U 1 1 6264804C
+P 5550 3800
+F 0 "U?" H 5050 5100 50  0000 C CNN
+F 1 "S40FC004C1B2C00000" H 6300 5100 50  0000 C CNN
+F 2 "" H 4500 3350 50  0001 L CNN
+F 3 "http://www.skyhighmemory.com/download/dataSheet/002-01112.pdf" H 4500 3250 50  0001 L CNN
+	1    5550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT3_VDD #PWR?
+U 1 1 6265B6C3
+P 4600 2150
+AR Path="/60A9AEDE/6265B6C3" Ref="#PWR?"  Part="1" 
+AR Path="/62646A24/6265B6C3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4600 2000 50  0001 C CNN
+F 1 "PMIC_VOUT3_VDD" V 4615 2278 50  0000 L CNN
+F 2 "" H 4600 2150 50  0001 C CNN
+F 3 "" H 4600 2150 50  0001 C CNN
+	1    4600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2350 5400 2250
+Wire Wire Line
+	5400 2250 4600 2250
+Wire Wire Line
+	4750 2700 4600 2700
+Wire Wire Line
+	4600 2700 4600 2250
+Wire Wire Line
+	4750 2800 4600 2800
+Wire Wire Line
+	4600 2800 4600 2700
+Connection ~ 4600 2700
+Wire Wire Line
+	4750 2900 4600 2900
+Wire Wire Line
+	4600 2900 4600 2800
+Connection ~ 4600 2800
+Wire Wire Line
+	4750 3000 4600 3000
+Wire Wire Line
+	4600 3000 4600 2900
+Connection ~ 4600 2900
+Wire Wire Line
+	5500 2350 5500 2250
+Wire Wire Line
+	5500 2250 5400 2250
+Connection ~ 5400 2250
+Wire Wire Line
+	5600 2350 5600 2250
+Wire Wire Line
+	5600 2250 5500 2250
+Connection ~ 5500 2250
+Wire Wire Line
+	5700 2350 5700 2250
+Wire Wire Line
+	5700 2250 5600 2250
+Connection ~ 5600 2250
+Wire Wire Line
+	5800 2350 5800 2250
+Wire Wire Line
+	5800 2250 5700 2250
+Connection ~ 5700 2250
+Wire Wire Line
+	4600 2150 4600 2250
+Connection ~ 4600 2250
+Text GLabel 8200 2700 2    50   UnSpc ~ 0
+SDMMC2_D0
+Text GLabel 8200 2800 2    50   UnSpc ~ 0
+SDMMC2_D1
+Text GLabel 8200 3000 2    50   UnSpc ~ 0
+SDMMC2_D3
+Text GLabel 8200 2900 2    50   UnSpc ~ 0
+SDMMC2_D2
+Text GLabel 8200 3100 2    50   UnSpc ~ 0
+SDMMC2_D4
+Text GLabel 8200 3200 2    50   UnSpc ~ 0
+SDMMC2_D5
+Text GLabel 8200 3300 2    50   UnSpc ~ 0
+SDMMC2_D6
+Text GLabel 8200 3400 2    50   UnSpc ~ 0
+SDMMC2_D7
+Text GLabel 6550 3750 2    50   UnSpc ~ 0
+SDMMC2_CK
+Text GLabel 6550 3650 2    50   UnSpc ~ 0
+SDMMC2_CMD
+Wire Wire Line
+	6550 2800 6400 2800
+Wire Wire Line
+	6550 2900 6400 2900
+Wire Wire Line
+	6550 3000 6400 3000
+Wire Wire Line
+	6550 3100 6400 3100
+Wire Wire Line
+	6550 3200 6400 3200
+Wire Wire Line
+	6550 3300 6400 3300
+Wire Wire Line
+	6550 3400 6400 3400
+Wire Wire Line
+	6550 3750 6400 3750
+Wire Wire Line
+	6550 3650 6400 3650
+Wire Wire Line
+	6400 2700 8200 2700
+$Comp
+L Device:R_Small_US R?
+U 1 1 626A6BB6
+P 7900 2450
+F 0 "R?" H 7968 2496 50  0000 L CNN
+F 1 "47k" H 7968 2405 50  0000 L CNN
+F 2 "" H 7900 2450 50  0001 C CNN
+F 3 "~" H 7900 2450 50  0001 C CNN
+F 4 "0402" H 7900 2450 50  0001 C CNN "Package "
+F 5 "RC0402FR-0747KL" H 7900 2450 50  0001 C CNN "MNP"
+	1    7900 2450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "SNAP PROJECT OVERVIEW"
 Date "2021-05-20"
 Rev "1.0.0"
@@ -348,5 +348,11 @@ S 14550 4400 1550 900
 U 60CA7234
 F0 "MPU & DDR3L" 50
 F1 "MPU & DDR3L.sch" 50
+$EndSheet
+$Sheet
+S 12400 4400 1600 900 
+U 62646A24
+F0 "eMMC" 50
+F1 "eMMC.sch" 50
 $EndSheet
 $EndSCHEMATC
