@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "SNAP PROJECT OVERVIEW"
 Date "2021-05-20"
 Rev "1.0.0"
@@ -336,5 +336,11 @@ S 12500 4350 1550 950
 U 60DF6F52
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
+$EndSheet
+$Sheet
+S 14600 1600 1500 1000
+U 60AD97EF
+F0 "MPU Connectivity, Multimedia & Clock" 50
+F1 "MPU Connectivity, Multimedia & Clock.sch" 50
 $EndSheet
 $EndSCHEMATC

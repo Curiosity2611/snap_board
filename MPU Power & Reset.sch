@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date "2021-05-20"
 Rev "1.0.0"
@@ -988,35 +988,13 @@ F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 8950 2250 50  0
 $EndComp
 $Comp
 L U_Microprocessor:STM32MP157CAC3 U1
-U 1 1 60C94B16
-P 16350 2500
-F 0 "U1" H 15750 4450 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 16000 850 50  0000 C CNN
-F 2 "" H 15650 1500 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 15650 1500 50  0001 C CNN
-	1    16350 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U1
-U 2 1 60C97CF3
-P 19000 2500
-F 0 "U1" H 18500 4300 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 18750 850 50  0000 C CNN
-F 2 "" H 18300 1500 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 18300 1500 50  0001 C CNN
-	2    19000 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U1
 U 3 1 60C9A898
-P 21500 2500
-F 0 "U1" H 20850 4300 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 21100 650 50  0000 C CNN
-F 2 "" H 20800 1500 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 20800 1500 50  0001 C CNN
-	3    21500 2500
+P 18750 2750
+F 0 "U1" H 18100 4550 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 18350 900 50  0000 C CNN
+F 2 "" H 18050 1750 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 18050 1750 50  0001 C CNN
+	3    18750 2750
 	1    0    0    -1  
 $EndComp
 $Comp

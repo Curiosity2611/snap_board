@@ -1,0 +1,420 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L U_Microprocessor:STM32MP157CAC3 U?
+U 1 1 60B0D688
+P 2900 3050
+AR Path="/60A73E6A/60B0D688" Ref="U?"  Part="1" 
+AR Path="/60AD97EF/60B0D688" Ref="U?"  Part="1" 
+F 0 "U?" H 2300 5000 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 2550 1400 50  0000 C CNN
+F 2 "" H 2200 2050 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 2200 2050 50  0001 C CNN
+	1    2900 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1850 1300 0    50   UnSpc ~ 0
+ETH_TXD0
+Text GLabel 1850 1400 0    50   UnSpc ~ 0
+ETH_TXD1
+Text GLabel 1850 1500 0    50   UnSpc ~ 0
+ETH_TXD2
+Text GLabel 1850 1600 0    50   UnSpc ~ 0
+ETH_TXD3
+Text GLabel 1850 1700 0    50   UnSpc ~ 0
+ETH_RXD0
+Text GLabel 1850 1800 0    50   UnSpc ~ 0
+ETH_RXD1
+Text GLabel 1850 1900 0    50   UnSpc ~ 0
+ETH_RXD2
+Text GLabel 1850 2000 0    50   UnSpc ~ 0
+ETH_RXD3
+Text GLabel 1850 2100 0    50   UnSpc ~ 0
+ETH_CLK125
+Text GLabel 1850 2200 0    50   UnSpc ~ 0
+ETH_MDINT
+Text GLabel 1850 2300 0    50   UnSpc ~ 0
+ETH_MDIO
+Text GLabel 1850 2400 0    50   UnSpc ~ 0
+ETH_MDC
+Text GLabel 1850 2500 0    50   UnSpc ~ 0
+ETH_RX_CLK
+Text GLabel 1850 2600 0    50   UnSpc ~ 0
+ETH_GTX_CLK
+Text GLabel 1850 2700 0    50   UnSpc ~ 0
+ETH_TX_EN
+Text GLabel 1850 2800 0    50   UnSpc ~ 0
+EHT_RX_DV
+Text GLabel 1850 2900 0    50   UnSpc ~ 0
+ETH_CLK
+Text GLabel 1850 3000 0    50   UnSpc ~ 0
+ETH_NRST
+Wire Wire Line
+	2000 1300 1850 1300
+Wire Wire Line
+	2000 1400 1850 1400
+Wire Wire Line
+	2000 1500 1850 1500
+Wire Wire Line
+	2000 1600 1850 1600
+Wire Wire Line
+	2000 1700 1850 1700
+Wire Wire Line
+	2000 1800 1850 1800
+Wire Wire Line
+	2000 1900 1850 1900
+Wire Wire Line
+	2000 2000 1850 2000
+Wire Wire Line
+	2000 2100 1850 2100
+Wire Wire Line
+	2000 2200 1850 2200
+Wire Wire Line
+	2000 2300 1850 2300
+Wire Wire Line
+	2000 2400 1850 2400
+Wire Wire Line
+	2000 2500 1850 2500
+Wire Wire Line
+	2000 2600 1850 2600
+Wire Wire Line
+	2000 2700 1850 2700
+Wire Wire Line
+	2000 2800 1850 2800
+Wire Wire Line
+	2000 2900 1850 2900
+Wire Wire Line
+	2000 3000 1850 3000
+NoConn ~ 2000 3200
+Text GLabel 1850 3300 0    50   UnSpc ~ 0
+USB_DM1
+Text GLabel 1850 3400 0    50   UnSpc ~ 0
+USB_DP1
+Text GLabel 1850 3500 0    50   UnSpc ~ 0
+USB_DM2
+Text GLabel 1850 3600 0    50   UnSpc ~ 0
+USB_DP2
+Wire Wire Line
+	1850 3300 2000 3300
+Wire Wire Line
+	1850 3400 2000 3400
+Wire Wire Line
+	1850 3500 2000 3500
+Wire Wire Line
+	1850 3600 2000 3600
+Text GLabel 1850 3750 0    50   UnSpc ~ 0
+STUSB1600_IRQOUTn
+Wire Wire Line
+	1850 3750 2000 3750
+$Comp
+L Device:R_Small_US R?
+U 1 1 60B3D6A9
+P 1700 3950
+F 0 "R?" V 1650 3800 50  0000 C CNN
+F 1 "3k" V 1650 4050 50  0000 C CNN
+F 2 "" H 1700 3950 50  0001 C CNN
+F 3 "~" H 1700 3950 50  0001 C CNN
+F 4 "0402" V 1700 3950 50  0001 C CNN "Package"
+F 5 "RC0402FR-073KL" V 1700 3950 50  0001 C CNN "MNP"
+	1    1700 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 3950 2000 3950
+$Comp
+L power:GND #PWR?
+U 1 1 60B434F2
+P 1400 3950
+F 0 "#PWR?" H 1400 3700 50  0001 C CNN
+F 1 "GND" V 1405 3822 50  0000 R CNN
+F 2 "" H 1400 3950 50  0001 C CNN
+F 3 "" H 1400 3950 50  0001 C CNN
+	1    1400 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 3950 1600 3950
+Text GLabel 1850 4300 0    50   UnSpc ~ 0
+I2C4_SDA
+Text GLabel 1850 4200 0    50   UnSpc ~ 0
+I2C4_SCL
+Wire Wire Line
+	1850 4200 2000 4200
+Wire Wire Line
+	1850 4300 2000 4300
+Text GLabel 1850 4550 0    50   UnSpc ~ 0
+I2C1_SDA
+Text GLabel 1850 4450 0    50   UnSpc ~ 0
+I2C1_SCL
+Wire Wire Line
+	1850 4450 2000 4450
+Wire Wire Line
+	1850 4550 2000 4550
+Text Notes 1000 4300 0    50   ~ 0
+See Note: 1
+Text Notes 1000 4550 0    50   ~ 0
+See Note: 2
+Text Notes 3950 6950 0    118  ~ 24
+Notes
+Text Notes 4000 7100 0    50   ~ 0
+1. Used for PMIC & USB-C
+Text Notes 4000 7200 0    50   ~ 0
+2. Used for DSI, HDMI & RPi Header
+$Comp
+L Device:R_Small_US R?
+U 1 1 60B72E5E
+P 2550 5150
+F 0 "R?" V 2500 5000 50  0000 C CNN
+F 1 "1k5" V 2500 5250 50  0000 C CNN
+F 2 "" H 2550 5150 50  0001 C CNN
+F 3 "~" H 2550 5150 50  0001 C CNN
+F 4 "0402" V 2550 5150 50  0001 C CNN "Package"
+F 5 "RC0402FR-7D1K5L" V 2550 5150 50  0001 C CNN "MNP"
+	1    2550 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60B797F4
+P 2550 5350
+F 0 "R?" V 2500 5200 50  0000 C CNN
+F 1 "1k5" V 2500 5450 50  0000 C CNN
+F 2 "" H 2550 5350 50  0001 C CNN
+F 3 "~" H 2550 5350 50  0001 C CNN
+F 4 "0402" V 2550 5350 50  0001 C CNN "Package"
+F 5 "RC0402FR-7D1K5L" V 2550 5350 50  0001 C CNN "MNP"
+	1    2550 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT3_VDD #PWR?
+U 1 1 60B87227
+P 2300 5150
+AR Path="/60A9AEDE/60B87227" Ref="#PWR?"  Part="1" 
+AR Path="/60AD97EF/60B87227" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 5000 50  0001 C CNN
+F 1 "PMIC_VOUT3_VDD" V 2315 5278 50  0000 L CNN
+F 2 "" H 2300 5150 50  0001 C CNN
+F 3 "" H 2300 5150 50  0001 C CNN
+	1    2300 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT3_VDD #PWR?
+U 1 1 60B89AF7
+P 2300 5350
+AR Path="/60A9AEDE/60B89AF7" Ref="#PWR?"  Part="1" 
+AR Path="/60AD97EF/60B89AF7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 5200 50  0001 C CNN
+F 1 "PMIC_VOUT3_VDD" V 2315 5478 50  0000 L CNN
+F 2 "" H 2300 5350 50  0001 C CNN
+F 3 "" H 2300 5350 50  0001 C CNN
+	1    2300 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 5150 2450 5150
+Wire Wire Line
+	2650 5150 2800 5150
+Wire Wire Line
+	2300 5350 2450 5350
+Wire Wire Line
+	2650 5350 2800 5350
+Text GLabel 2800 5150 2    50   UnSpc ~ 0
+I2C1_SCL
+Text GLabel 2800 5350 2    50   UnSpc ~ 0
+I2C1_SDA
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BAD1F5
+P 2550 5600
+F 0 "R?" V 2500 5450 50  0000 C CNN
+F 1 "1k5" V 2500 5700 50  0000 C CNN
+F 2 "" H 2550 5600 50  0001 C CNN
+F 3 "~" H 2550 5600 50  0001 C CNN
+F 4 "0402" V 2550 5600 50  0001 C CNN "Package"
+F 5 "RC0402FR-7D1K5L" V 2550 5600 50  0001 C CNN "MNP"
+	1    2550 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60BAD1FD
+P 2550 5800
+F 0 "R?" V 2500 5650 50  0000 C CNN
+F 1 "1k5" V 2500 5900 50  0000 C CNN
+F 2 "" H 2550 5800 50  0001 C CNN
+F 3 "~" H 2550 5800 50  0001 C CNN
+F 4 "0402" V 2550 5800 50  0001 C CNN "Package"
+F 5 "RC0402FR-7D1K5L" V 2550 5800 50  0001 C CNN "MNP"
+	1    2550 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT3_VDD #PWR?
+U 1 1 60BAD203
+P 2300 5600
+AR Path="/60A9AEDE/60BAD203" Ref="#PWR?"  Part="1" 
+AR Path="/60AD97EF/60BAD203" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 5450 50  0001 C CNN
+F 1 "PMIC_VOUT3_VDD" V 2315 5728 50  0000 L CNN
+F 2 "" H 2300 5600 50  0001 C CNN
+F 3 "" H 2300 5600 50  0001 C CNN
+	1    2300 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT3_VDD #PWR?
+U 1 1 60BAD209
+P 2300 5800
+AR Path="/60A9AEDE/60BAD209" Ref="#PWR?"  Part="1" 
+AR Path="/60AD97EF/60BAD209" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 5650 50  0001 C CNN
+F 1 "PMIC_VOUT3_VDD" V 2315 5928 50  0000 L CNN
+F 2 "" H 2300 5800 50  0001 C CNN
+F 3 "" H 2300 5800 50  0001 C CNN
+	1    2300 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 5600 2450 5600
+Wire Wire Line
+	2650 5600 2800 5600
+Wire Wire Line
+	2300 5800 2450 5800
+Wire Wire Line
+	2650 5800 2800 5800
+Text GLabel 2800 5600 2    50   UnSpc ~ 0
+I2C4_SCL
+Text GLabel 2800 5800 2    50   UnSpc ~ 0
+I2C4_SDA
+Text GLabel 3900 1300 2    50   UnSpc ~ 0
+SDMMC1_D0
+Text GLabel 3900 1400 2    50   UnSpc ~ 0
+SDMMC1_D1
+Text GLabel 3900 1500 2    50   UnSpc ~ 0
+SDMMC1_D2
+Text GLabel 3900 1600 2    50   UnSpc ~ 0
+SDMMC1_D3
+Text GLabel 3900 1700 2    50   UnSpc ~ 0
+SDMMC1_CK
+Text GLabel 3900 1800 2    50   UnSpc ~ 0
+SDMMC1_CMD
+Text GLabel 3900 2000 2    50   UnSpc ~ 0
+SDMMC2_D0
+Text GLabel 3900 2100 2    50   UnSpc ~ 0
+SDMMC2_D1
+Text GLabel 3900 2300 2    50   UnSpc ~ 0
+SDMMC2_D3
+Text GLabel 3900 2200 2    50   UnSpc ~ 0
+SDMMC2_D2
+Text GLabel 3900 2400 2    50   UnSpc ~ 0
+SDMMC2_D4
+Text GLabel 3900 2500 2    50   UnSpc ~ 0
+SDMMC2_D5
+Text GLabel 3900 2600 2    50   UnSpc ~ 0
+SDMMC2_D6
+Text GLabel 3900 2700 2    50   UnSpc ~ 0
+SDMMC2_D7
+Text GLabel 3900 2800 2    50   UnSpc ~ 0
+SDMMC2_CK
+Text GLabel 3900 2900 2    50   UnSpc ~ 0
+SDMMC2_CMD
+Wire Wire Line
+	3900 2000 3750 2000
+Wire Wire Line
+	3900 2100 3750 2100
+Wire Wire Line
+	3900 2200 3750 2200
+Wire Wire Line
+	3900 2300 3750 2300
+Wire Wire Line
+	3900 2400 3750 2400
+Wire Wire Line
+	3900 2500 3750 2500
+Wire Wire Line
+	3900 2600 3750 2600
+Wire Wire Line
+	3900 2700 3750 2700
+Wire Wire Line
+	3900 2800 3750 2800
+Wire Wire Line
+	3900 2900 3750 2900
+Wire Wire Line
+	3900 1300 3750 1300
+Wire Wire Line
+	3900 1400 3750 1400
+Wire Wire Line
+	3900 1500 3750 1500
+Wire Wire Line
+	3900 1600 3750 1600
+Wire Wire Line
+	3900 1700 3750 1700
+Wire Wire Line
+	3900 1800 3750 1800
+Text GLabel 3900 3100 2    50   UnSpc ~ 0
+SDMMC3_D0
+Text GLabel 3900 3200 2    50   UnSpc ~ 0
+SDMMC3_D1
+Text GLabel 3900 3300 2    50   UnSpc ~ 0
+SDMMC3_D2
+Text GLabel 3900 3400 2    50   UnSpc ~ 0
+SDMMC3_D3
+Text GLabel 3900 3500 2    50   UnSpc ~ 0
+SDMMC3_CK
+Text GLabel 3900 3600 2    50   UnSpc ~ 0
+SDMMC3_CMD
+Text GLabel 3900 3700 2    50   UnSpc ~ 0
+WIFI_WKUP
+Text GLabel 3900 3800 2    50   UnSpc ~ 0
+WIFI_IRQ
+Wire Wire Line
+	3900 3100 3750 3100
+Wire Wire Line
+	3900 3200 3750 3200
+Wire Wire Line
+	3900 3300 3750 3300
+Wire Wire Line
+	3900 3400 3750 3400
+Wire Wire Line
+	3900 3500 3750 3500
+Wire Wire Line
+	3900 3600 3750 3600
+Wire Wire Line
+	3900 3700 3750 3700
+Wire Wire Line
+	3900 3800 3750 3800
+Text GLabel 3900 4000 2    50   UnSpc ~ 0
+BLE_USART3_TX
+Text GLabel 3900 4100 2    50   UnSpc ~ 0
+BLE_USART3_RX
+Text GLabel 3900 4200 2    50   UnSpc ~ 0
+BLE_USART3_CTS
+Text GLabel 3900 4300 2    50   UnSpc ~ 0
+BLE_USART3_RTS
+Text GLabel 3900 4400 2    50   UnSpc ~ 0
+BLE_RESET
+Wire Wire Line
+	3750 4000 3900 4000
+Wire Wire Line
+	3750 4100 3900 4100
+Wire Wire Line
+	3750 4200 3900 4200
+Wire Wire Line
+	3750 4300 3900 4300
+Wire Wire Line
+	3750 4400 3900 4400
+$EndSCHEMATC
