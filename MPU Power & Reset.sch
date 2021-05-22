@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date "2021-05-20"
 Rev "1.0.0"
@@ -975,23 +975,15 @@ Wire Wire Line
 	3100 5250 3350 5250
 Text Notes 2300 5150 0    50   ~ 0
 To PMIC
+Wire Wire Line
+	5200 2400 5350 2400
+Connection ~ 5350 2400
 $Comp
 L U_Microprocessor:STM32MP157CAC3 U1
-U 6 1 60C8F6BD
-P 9650 3250
-F 0 "U1" H 9350 4750 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 9600 1650 50  0000 C CNN
-F 2 "" H 8950 2250 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 8950 2250 50  0001 C CNN
-	6    9650 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U1
-U 4 1 60C9C17F
+U 4 1 60F62D7C
 P 4300 3350
-F 0 "U1" H 3650 5450 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 3900 1300 50  0000 C CNN
+F 0 "U1" H 4275 5565 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 4275 5474 50  0000 C CNN
 F 2 "" H 3600 2350 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 3600 2350 50  0001 C CNN
 	4    4300 3350
@@ -999,16 +991,13 @@ F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 3600 2350 50  0
 $EndComp
 $Comp
 L U_Microprocessor:STM32MP157CAC3 U1
-U 5 1 60C9E3AC
-P 13750 2400
-F 0 "U1" H 13250 4500 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 13500 -450 50  0000 C CNN
-F 2 "" H 13050 1400 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 13050 1400 50  0001 C CNN
-	5    13750 2400
+U 6 1 60F701DA
+P 9650 3250
+F 0 "U1" H 9675 4865 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 9675 4774 50  0000 C CNN
+F 2 "" H 8950 2250 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 8950 2250 50  0001 C CNN
+	6    9650 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 2400 5350 2400
-Connection ~ 5350 2400
 $EndSCHEMATC

@@ -1,0 +1,374 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1900 1550 0    50   UnSpc ~ 0
+DDR_DQ0
+Text GLabel 1900 1650 0    50   UnSpc ~ 0
+DDR_DQ1
+$Comp
+L U_Microprocessor:STM32MP157CAC3 U?
+U 5 1 60EE303B
+P 2850 3500
+AR Path="/60A73E6A/60EE303B" Ref="U?"  Part="1" 
+AR Path="/60AD97EF/60EE303B" Ref="U?"  Part="5" 
+AR Path="/60CA7234/60EE303B" Ref="U1"  Part="5" 
+F 0 "U1" H 2300 5600 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 2600 650 50  0000 C CNN
+F 2 "" H 2150 2500 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 2150 2500 50  0001 C CNN
+	5    2850 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 1750 0    50   UnSpc ~ 0
+DDR_DQ2
+Text GLabel 1900 1850 0    50   UnSpc ~ 0
+DDR_DQ3
+Text GLabel 1900 1950 0    50   UnSpc ~ 0
+DDR_DQ4
+Text GLabel 1900 2050 0    50   UnSpc ~ 0
+DDR_DQ5
+Text GLabel 1900 2150 0    50   UnSpc ~ 0
+DDR_DQ6
+Text GLabel 1900 2250 0    50   UnSpc ~ 0
+DDR_DQ7
+Text GLabel 1900 2350 0    50   UnSpc ~ 0
+DDR_DQS0_P
+Text GLabel 1900 2450 0    50   UnSpc ~ 0
+DDR_DQS0_N
+Text GLabel 1900 2550 0    50   UnSpc ~ 0
+DDR_DQM0
+Wire Wire Line
+	2050 1550 1900 1550
+Wire Wire Line
+	2050 1650 1900 1650
+Wire Wire Line
+	2050 1750 1900 1750
+Wire Wire Line
+	2050 1850 1900 1850
+Wire Wire Line
+	2050 1950 1900 1950
+Wire Wire Line
+	2050 2050 1900 2050
+Wire Wire Line
+	2050 2150 1900 2150
+Wire Wire Line
+	2050 2250 1900 2250
+Wire Wire Line
+	2050 2350 1900 2350
+Wire Wire Line
+	2050 2450 1900 2450
+Wire Wire Line
+	2050 2550 1900 2550
+Text GLabel 1900 2800 0    50   UnSpc ~ 0
+DDR_DQ8
+Text GLabel 1900 2900 0    50   UnSpc ~ 0
+DDR_DQ9
+Text GLabel 1900 3000 0    50   UnSpc ~ 0
+DDR_DQ10
+Text GLabel 1900 3100 0    50   UnSpc ~ 0
+DDR_DQ11
+Text GLabel 1900 3200 0    50   UnSpc ~ 0
+DDR_DQ12
+Text GLabel 1900 3300 0    50   UnSpc ~ 0
+DDR_DQ13
+Text GLabel 1900 3400 0    50   UnSpc ~ 0
+DDR_DQ14
+Text GLabel 1900 3500 0    50   UnSpc ~ 0
+DDR_DQ15
+Text GLabel 1900 3600 0    50   UnSpc ~ 0
+DDR_DQS1_P
+Text GLabel 1900 3700 0    50   UnSpc ~ 0
+DDR_DQS1_N
+Text GLabel 1900 3800 0    50   UnSpc ~ 0
+DDR_DQM1
+Wire Wire Line
+	2050 2800 1900 2800
+Wire Wire Line
+	1900 2900 2050 2900
+Wire Wire Line
+	1900 3000 2050 3000
+Wire Wire Line
+	1900 3100 2050 3100
+Wire Wire Line
+	1900 3200 2050 3200
+Wire Wire Line
+	1900 3300 2050 3300
+Wire Wire Line
+	1900 3400 2050 3400
+Wire Wire Line
+	1900 3500 2050 3500
+Wire Wire Line
+	1900 3600 2050 3600
+Wire Wire Line
+	1900 3700 2050 3700
+Wire Wire Line
+	1900 3800 2050 3800
+NoConn ~ 2050 4000
+NoConn ~ 2050 4100
+NoConn ~ 2050 4200
+NoConn ~ 2050 4300
+NoConn ~ 2050 4400
+NoConn ~ 2050 4500
+NoConn ~ 2050 4600
+NoConn ~ 2050 4700
+NoConn ~ 2050 4800
+NoConn ~ 2050 4900
+NoConn ~ 2050 5000
+NoConn ~ 2050 5200
+NoConn ~ 2050 5300
+NoConn ~ 2050 5400
+NoConn ~ 2050 5500
+NoConn ~ 2050 5600
+NoConn ~ 2050 5700
+NoConn ~ 2050 5800
+NoConn ~ 2050 5900
+NoConn ~ 2050 6000
+NoConn ~ 2050 6100
+NoConn ~ 2050 6200
+Text GLabel 3800 1550 2    50   UnSpc ~ 0
+DDR_CLK_P
+Text GLabel 3800 1650 2    50   UnSpc ~ 0
+DDR_CLK_N
+Text GLabel 3800 1850 2    50   UnSpc ~ 0
+DDR_A0
+Text GLabel 3800 1950 2    50   UnSpc ~ 0
+DDR_A1
+Text GLabel 3800 2050 2    50   UnSpc ~ 0
+DDR_A2
+Text GLabel 3800 2150 2    50   UnSpc ~ 0
+DDR_A3
+Text GLabel 3800 2250 2    50   UnSpc ~ 0
+DDR_A4
+Text GLabel 3800 2350 2    50   UnSpc ~ 0
+DDR_A5
+Text GLabel 3800 2450 2    50   UnSpc ~ 0
+DDR_A6
+Text GLabel 3800 2550 2    50   UnSpc ~ 0
+DDR_A7
+Text GLabel 3800 2650 2    50   UnSpc ~ 0
+DDR_A8
+Text GLabel 3800 2750 2    50   UnSpc ~ 0
+DDR_A9
+Text GLabel 3800 2850 2    50   UnSpc ~ 0
+DDR_A10
+Text GLabel 3800 2950 2    50   UnSpc ~ 0
+DDR_A11
+Text GLabel 3800 3050 2    50   UnSpc ~ 0
+DDR_A12
+Text GLabel 3800 3150 2    50   UnSpc ~ 0
+DDR_A13
+Text GLabel 3800 3250 2    50   UnSpc ~ 0
+DDR_A14
+Wire Wire Line
+	3650 1850 3800 1850
+Wire Wire Line
+	3650 1950 3800 1950
+Wire Wire Line
+	3650 2050 3800 2050
+Wire Wire Line
+	3650 2150 3800 2150
+Wire Wire Line
+	3650 2250 3800 2250
+Wire Wire Line
+	3650 2350 3800 2350
+Wire Wire Line
+	3650 2450 3800 2450
+Wire Wire Line
+	3650 2550 3800 2550
+Wire Wire Line
+	3650 2650 3800 2650
+Wire Wire Line
+	3650 2750 3800 2750
+Wire Wire Line
+	3650 2850 3800 2850
+Wire Wire Line
+	3650 2950 3800 2950
+Wire Wire Line
+	3650 3050 3800 3050
+Wire Wire Line
+	3650 3150 3800 3150
+Wire Wire Line
+	3650 3250 3800 3250
+Wire Wire Line
+	3650 1550 3800 1550
+Wire Wire Line
+	3650 1650 3800 1650
+NoConn ~ 3650 3350
+Text GLabel 3800 3500 2    50   UnSpc ~ 0
+DDR_BA0
+Text GLabel 3800 3600 2    50   UnSpc ~ 0
+DDR_BA1
+Text GLabel 3800 3700 2    50   UnSpc ~ 0
+DDR_BA2
+Wire Wire Line
+	3800 3700 3650 3700
+Wire Wire Line
+	3650 3600 3800 3600
+Wire Wire Line
+	3800 3500 3650 3500
+Text GLabel 3800 3900 2    50   UnSpc ~ 0
+DDR_RASN
+Text GLabel 3800 4000 2    50   UnSpc ~ 0
+DDR_CASN
+Text GLabel 3800 4100 2    50   UnSpc ~ 0
+DDR_CSN
+Text GLabel 3800 4200 2    50   UnSpc ~ 0
+DDR_CKE
+Text GLabel 3800 4300 2    50   UnSpc ~ 0
+DDR_WEN
+Text GLabel 3800 4400 2    50   UnSpc ~ 0
+DDR_ODT
+Wire Wire Line
+	3800 4400 3650 4400
+Wire Wire Line
+	3650 3900 3800 3900
+Wire Wire Line
+	3650 4000 3800 4000
+Wire Wire Line
+	3650 4100 3800 4100
+Wire Wire Line
+	3650 4200 3800 4200
+Wire Wire Line
+	3650 4300 3800 4300
+Text GLabel 3800 4650 2    50   UnSpc ~ 0
+DDR_RESETN
+Wire Wire Line
+	3800 4650 3650 4650
+$Comp
+L Device:C_Small C?
+U 1 1 61059782
+P 4450 5000
+AR Path="/60A73E6A/61059782" Ref="C?"  Part="1" 
+AR Path="/60CA7234/61059782" Ref="C?"  Part="1" 
+F 0 "C?" H 4542 5046 50  0000 L CNN
+F 1 "100nF" H 4542 4955 50  0000 L CNN
+F 2 "" H 4450 5000 50  0001 C CNN
+F 3 "~" H 4450 5000 50  0001 C CNN
+F 4 "0402" H 4450 5000 50  0001 C CNN "Package "
+F 5 "04026D104KAT2A" H 4450 5000 50  0001 C CNN "MNP"
+	1    4450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Power:PMIC_VREF_DDR #PWR?
+U 1 1 610689C0
+P 4650 4850
+AR Path="/60A9AEDE/610689C0" Ref="#PWR?"  Part="1" 
+AR Path="/60CA7234/610689C0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4650 4700 50  0001 C CNN
+F 1 "PMIC_VREF_DDR" V 4665 4978 50  0000 L CNN
+F 2 "" H 4650 4850 50  0001 C CNN
+F 3 "" H 4650 4850 50  0001 C CNN
+	1    4650 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT2_VDD_DDR #PWR?
+U 1 1 610689C6
+P 10350 1550
+F 0 "#PWR?" H 10350 1400 50  0001 C CNN
+F 1 "PMIC_VOUT2_VDD_DDR" V 10365 1678 50  0000 L CNN
+F 2 "" H 10350 1550 50  0001 C CNN
+F 3 "" H 10350 1550 50  0001 C CNN
+	1    10350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Power:PMIC_LDO3_VTT_DDR #PWR?
+U 1 1 610689CC
+P 10500 1500
+F 0 "#PWR?" H 10500 1350 50  0001 C CNN
+F 1 "PMIC_LDO3_VTT_DDR" V 10515 1628 50  0000 L CNN
+F 2 "" H 10500 1500 50  0001 C CNN
+F 3 "" H 10500 1500 50  0001 C CNN
+	1    10500 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4850 4450 4850
+$Comp
+L power:GND #PWR?
+U 1 1 610854D0
+P 4450 5150
+F 0 "#PWR?" H 4450 4900 50  0001 C CNN
+F 1 "GND" H 4455 4977 50  0000 C CNN
+F 2 "" H 4450 5150 50  0001 C CNN
+F 3 "" H 4450 5150 50  0001 C CNN
+	1    4450 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 5150 4450 5100
+Wire Wire Line
+	4450 4900 4450 4850
+NoConn ~ 3650 5400
+NoConn ~ 3650 5500
+NoConn ~ 3650 5600
+$Comp
+L Device:R_Small_US R?
+U 1 1 6109EF23
+P 4000 5300
+F 0 "R?" H 4068 5346 50  0000 L CNN
+F 1 "240E" H 4068 5255 50  0000 L CNN
+F 2 "" H 4000 5300 50  0001 C CNN
+F 3 "~" H 4000 5300 50  0001 C CNN
+F 4 "0402" H 4000 5300 50  0001 C CNN "Package"
+F 5 "RC0402JR-07240RL" H 4000 5300 50  0001 C CNN "MNP"
+	1    4000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610A1E04
+P 4000 5500
+F 0 "#PWR?" H 4000 5250 50  0001 C CNN
+F 1 "GND" H 4005 5327 50  0000 C CNN
+F 2 "" H 4000 5500 50  0001 C CNN
+F 3 "" H 4000 5500 50  0001 C CNN
+	1    4000 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5150 4000 5150
+Wire Wire Line
+	4000 5150 4000 5200
+Wire Wire Line
+	4000 5400 4000 5500
+Connection ~ 4450 4850
+Wire Wire Line
+	4450 4850 4650 4850
+$Comp
+L U_Memory_RAM:AS4C256M16D3LC-12BCN U?
+U 1 1 610D9512
+P 7050 3100
+F 0 "U?" H 7050 4665 50  0000 C CNN
+F 1 "AS4C256M16D3LC-12BCN" H 7050 4574 50  0000 C CNN
+F 2 "" H 8750 3400 50  0001 C CNN
+F 3 "" H 8750 3400 50  0001 C CNN
+	1    7050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Memory_RAM:AS4C256M16D3LC-12BCN U?
+U 2 1 610DB6A6
+P 9850 3200
+F 0 "U?" H 9850 4765 50  0000 C CNN
+F 1 "AS4C256M16D3LC-12BCN" H 9850 4674 50  0000 C CNN
+F 2 "" H 11550 3500 50  0001 C CNN
+F 3 "" H 11550 3500 50  0001 C CNN
+	2    9850 3200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

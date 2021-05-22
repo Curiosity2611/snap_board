@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "SNAP PROJECT OVERVIEW"
 Date "2021-05-20"
 Rev "1.0.0"
@@ -314,25 +314,25 @@ All Features
 Text Notes 750  7600 0    50   ~ 0
 - STM32MP157 Dual Core A7 + M4 MPU\n- ST PMIC\n- 4-Gbit DDR3L, 16 bits, 533MHz\n- 1-Gbps Ethernet(RGMII) compliant with IEEE-802.3ab\n- USB OTG HS\n- 4 User LEDs\n- 2 User Push Buttons\n-12 V DC input Power Jack\n- 1xEthernet RJ454 Connector\n- 2x USB-A Connectors\n- 1xMIPI-DSI Connector\n- RPi Compatible GPIO Header\n- On-board ST-Link/V2-1 debugger/Programmer\n- WiFi 802.11b/g/n\n- Bluetooth Low Energy 5.0
 $Sheet
-S 12500 50   1600 900 
+S 13350 150  1600 900 
 U 60A6F432
 F0 "Top Sheet" 79
 F1 "Top Sheet.sch" 79
 $EndSheet
 $Sheet
-S 12500 1600 1550 1000
+S 14550 3000 1550 1000
 U 60A73E6A
 F0 "MPU Power & Reset" 50
 F1 "MPU Power & Reset.sch" 50
 $EndSheet
 $Sheet
-S 12500 3050 1550 900 
+S 12400 1700 1550 900 
 U 60A9AEDE
 F0 "PMIC Power" 50
 F1 "PMIC Power.sch" 50
 $EndSheet
 $Sheet
-S 12500 4350 1550 950 
+S 12400 3000 1550 950 
 U 60DF6F52
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
@@ -342,5 +342,11 @@ S 14600 1600 1500 1000
 U 60AD97EF
 F0 "MPU_1" 50
 F1 "MPU_1.sch" 50
+$EndSheet
+$Sheet
+S 14550 4400 1550 900 
+U 60CA7234
+F0 "MPU & DDR3L" 50
+F1 "MPU & DDR3L.sch" 50
 $EndSheet
 $EndSCHEMATC
