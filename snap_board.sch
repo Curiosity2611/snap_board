@@ -340,7 +340,7 @@ $EndSheet
 $Sheet
 S 14600 1600 1500 1000
 U 60AD97EF
-F0 "MPU Connectivity, Multimedia & Clock" 50
-F1 "MPU Connectivity, Multimedia & Clock.sch" 50
+F0 "MPU_1" 50
+F1 "MPU_1.sch" 50
 $EndSheet
 $EndSCHEMATC

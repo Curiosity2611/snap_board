@@ -598,20 +598,201 @@ Wire Wire Line
 	7150 1850 7300 1850
 Wire Wire Line
 	7150 1950 7300 1950
-NoConn ~ 7150 2150
-NoConn ~ 7150 2250
-NoConn ~ 7150 2350
-NoConn ~ 7150 2450
-NoConn ~ 7150 2550
 $Comp
 L U_Microprocessor:STM32MP157CAC3 U?
 U 3 1 60E3A27F
-P 9450 2900
-F 0 "U?" H 8800 4700 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 9050 1050 50  0000 C CNN
-F 2 "" H 8750 1900 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 8750 1900 50  0001 C CNN
-	3    9450 2900
+P 9750 2900
+AR Path="/60A73E6A/60E3A27F" Ref="U?"  Part="3" 
+AR Path="/60AD97EF/60E3A27F" Ref="U?"  Part="3" 
+F 0 "U?" H 9100 4700 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 9350 1050 50  0000 C CNN
+F 2 "" H 9050 1900 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 9050 1900 50  0001 C CNN
+	3    9750 2900
 	1    0    0    -1  
 $EndComp
+Text GLabel 8650 1250 0    50   UnSpc ~ 0
+STLINK_UART4_RX
+Text GLabel 8650 1350 0    50   UnSpc ~ 0
+STLINK_UART4_TX
+Text GLabel 8650 1450 0    50   UnSpc ~ 0
+JTMS_SWDIO
+Text GLabel 8650 1550 0    50   UnSpc ~ 0
+JTCK_SWCLK
+Text GLabel 8650 1750 0    50   UnSpc ~ 0
+JTDO_TRACESWO
+Text GLabel 8650 1650 0    50   UnSpc ~ 0
+JTDI
+Text GLabel 8650 1850 0    50   UnSpc ~ 0
+NJRST
+Wire Wire Line
+	8650 1250 8800 1250
+Wire Wire Line
+	8650 1350 8800 1350
+Wire Wire Line
+	8650 1450 8800 1450
+Wire Wire Line
+	8650 1550 8800 1550
+Wire Wire Line
+	8650 1650 8800 1650
+Wire Wire Line
+	8650 1750 8800 1750
+Wire Wire Line
+	8650 1850 8800 1850
+Text GLabel 8650 2050 0    50   UnSpc ~ 0
+BOOT0
+Text GLabel 8650 2150 0    50   UnSpc ~ 0
+BOOT1
+Text GLabel 8650 2250 0    50   UnSpc ~ 0
+BOOT2
+Wire Wire Line
+	8650 2050 8800 2050
+Wire Wire Line
+	8650 2150 8800 2150
+Wire Wire Line
+	8650 2250 8800 2250
+Text GLabel 8650 2400 0    50   UnSpc ~ 0
+USART1_RX
+Text GLabel 8650 2500 0    50   UnSpc ~ 0
+USART1_TX
+Text GLabel 8650 2600 0    50   UnSpc ~ 0
+USART1_RTS
+Text GLabel 8650 2700 0    50   UnSpc ~ 0
+USART1_CTS
+Wire Wire Line
+	8650 2400 8800 2400
+Wire Wire Line
+	8650 2500 8800 2500
+Wire Wire Line
+	8650 2600 8800 2600
+Wire Wire Line
+	8650 2700 8800 2700
+NoConn ~ 8800 2850
+NoConn ~ 8800 2950
+NoConn ~ 8800 3050
+NoConn ~ 8800 3150
+Text GLabel 8650 3300 0    50   UnSpc ~ 0
+SPI5_NSS
+Text GLabel 8650 3400 0    50   UnSpc ~ 0
+SPI5_SCK
+Text GLabel 8650 3500 0    50   UnSpc ~ 0
+SPI5_MISO
+Text GLabel 8650 3600 0    50   UnSpc ~ 0
+SPI5_MOSI
+Wire Wire Line
+	8650 3300 8800 3300
+Wire Wire Line
+	8650 3400 8800 3400
+Wire Wire Line
+	8650 3500 8800 3500
+Wire Wire Line
+	8650 3600 8800 3600
+Text GLabel 8650 3800 0    50   UnSpc ~ 0
+ANA0
+Text GLabel 8650 3900 0    50   UnSpc ~ 0
+ANA1
+Wire Wire Line
+	8650 3800 8800 3800
+Wire Wire Line
+	8650 3900 8800 3900
+Text GLabel 8650 4050 0    50   Output ~ 0
+PA0_WKUP
+Text GLabel 8650 4150 0    50   Input ~ 0
+PMIC_WAKEUP
+Wire Wire Line
+	8650 4050 8800 4050
+Wire Wire Line
+	8650 4150 8800 4150
+NoConn ~ 10700 1250
+NoConn ~ 10700 1350
+NoConn ~ 10700 1450
+NoConn ~ 10700 1550
+NoConn ~ 10700 1650
+NoConn ~ 10700 2150
+NoConn ~ 10700 2250
+NoConn ~ 10700 2350
+NoConn ~ 10700 2550
+NoConn ~ 10700 2650
+NoConn ~ 10700 2750
+NoConn ~ 10700 2950
+NoConn ~ 10700 3050
+NoConn ~ 10700 3150
+NoConn ~ 10700 3250
+NoConn ~ 10700 3350
+NoConn ~ 10700 3450
+NoConn ~ 10700 3550
+NoConn ~ 10700 3650
+NoConn ~ 10700 3750
+NoConn ~ 10700 3850
+NoConn ~ 10700 3950
+NoConn ~ 10700 4050
+NoConn ~ 10700 4150
+NoConn ~ 10700 4250
+NoConn ~ 7150 2350
+NoConn ~ 7150 2450
+NoConn ~ 7150 2550
+NoConn ~ 7150 2650
+NoConn ~ 7150 2750
+Text GLabel 7300 2050 2    50   UnSpc ~ 0
+DSI_LCD_INT
+Text GLabel 7300 2150 2    50   UnSpc ~ 0
+DSI_BL_CTRL
+Wire Wire Line
+	7150 2050 7300 2050
+Wire Wire Line
+	7150 2150 7300 2150
+NoConn ~ 10700 2850
+NoConn ~ 10700 2000
+NoConn ~ 10700 1850
+NoConn ~ 10700 1750
+Text GLabel 8650 4300 0    50   UnSpc ~ 0
+U_BUTTON_1
+Text GLabel 8650 4400 0    50   UnSpc ~ 0
+U_BUTTON_2
+Text GLabel 8650 4500 0    50   UnSpc ~ 0
+U_LED_1
+Text GLabel 8650 4600 0    50   UnSpc ~ 0
+U_LED_2
+Wire Wire Line
+	8650 4300 8800 4300
+Wire Wire Line
+	8650 4400 8800 4400
+Wire Wire Line
+	8650 4500 8800 4500
+Wire Wire Line
+	8650 4600 8800 4600
+Text GLabel 2850 6150 2    50   UnSpc ~ 0
+ETH_NRST
+$Comp
+L Device:R_Small_US R?
+U 1 1 6128EA30
+P 2550 6150
+F 0 "R?" V 2345 6150 50  0000 C CNN
+F 1 "10k" V 2436 6150 50  0000 C CNN
+F 2 "" H 2550 6150 50  0001 C CNN
+F 3 "~" H 2550 6150 50  0001 C CNN
+F 4 "0402" V 2550 6150 50  0001 C CNN "Package"
+F 5 "RC0402JR-1010KL" V 2550 6150 50  0001 C CNN "MNP"
+	1    2550 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L U_Power:PMIC_VOUT3_VDD #PWR?
+U 1 1 61290327
+P 2300 6150
+AR Path="/60A9AEDE/61290327" Ref="#PWR?"  Part="1" 
+AR Path="/60AD97EF/61290327" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 6000 50  0001 C CNN
+F 1 "PMIC_VOUT3_VDD" V 2315 6278 50  0000 L CNN
+F 2 "" H 2300 6150 50  0001 C CNN
+F 3 "" H 2300 6150 50  0001 C CNN
+	1    2300 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 6150 2450 6150
+Wire Wire Line
+	2650 6150 2850 6150
+Text GLabel 7400 4850 0    50   Input ~ 0
+POWER_ON
 $EndSCHEMATC

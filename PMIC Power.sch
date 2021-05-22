@@ -1538,10 +1538,6 @@ Wire Wire Line
 	4500 3700 3750 3700
 Wire Wire Line
 	3750 3800 4500 3800
-Text GLabel 3450 5450 0    50   Output ~ 0
-PA0_WKUP
-Text GLabel 3500 5650 0    50   Input ~ 0
-PMIC_WAKEUP
 Text Notes 3500 7050 0    50   ~ 0
 5. Default = 1.8V; Imax = 800mA; NOT ON BY DEFAULT.
 Text Notes 3450 6500 0    118  ~ 24

@@ -988,17 +988,6 @@ F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 8950 2250 50  0
 $EndComp
 $Comp
 L U_Microprocessor:STM32MP157CAC3 U1
-U 3 1 60C9A898
-P 18750 2750
-F 0 "U1" H 18100 4550 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 18350 900 50  0000 C CNN
-F 2 "" H 18050 1750 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 18050 1750 50  0001 C CNN
-	3    18750 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U1
 U 4 1 60C9C17F
 P 4300 3350
 F 0 "U1" H 3650 5450 50  0000 C CNN
