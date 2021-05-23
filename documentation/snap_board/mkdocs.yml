@@ -2,10 +2,7 @@ site_name: Snap Board Design Notes
 
 nav:
     - Home: index.md
-    - About: about.md
     - Reference Docs: reference.md
-
-
 
 
 theme: readthedocs
