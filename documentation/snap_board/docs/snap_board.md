@@ -42,7 +42,7 @@ The whole system's power is managed by ST's Power management IC present on the s
 
 PMIC Input Voltage Range (VIN) - 2.8V - 5.5V <br>
 
-PMIC VIN --> `5V_VIN`
+**VIN** = `5V_VIN`
 
 #### PMIC LDOs
 
@@ -54,18 +54,29 @@ PMIC VIN --> `5V_VIN`
 
 The start-up sequence is split into four steps (Rank0 to Rank3). Each BUCK converter or LDO regulator can be programmed to be automatically turned ON in one of these phases:
 
-- **Rank= 0:** - Rail not turned ON automatically, no output voltage appears after POWER-UP.
+- **Rank= 0:** Rail not turned ON automatically, no output voltage appears after POWER-UP.
 
-- **Rank= 1:** rail automatically turned ON after 7 ms following a Turn_ON condition
+- **Rank= 1:** Rail automatically turned ON after 7 ms following a Turn_ON condition
 
-- **Rank= 2:** rail automatically turned ON after further 3 ms
+- **Rank= 2:** Rail automatically turned ON after further 3 ms
 
-- **Rank= 3:** rail automatically turned ON after further 3 ms <br>
+- **Rank= 3:** Rail automatically turned ON after further 3 ms <br>
 
 Whatever the STPMIC1 version:
 
 - AUTO_TURN_ON option is set
 - Boost and switches cannot be turned ON automatically
+
+**BUCK1_IN** = `5V_VIN` <br>
+**BUCK2_IN** = `5V_VIN` <br>
+**BUCK3_IN** = `5V_VIN` <br>
+**BUCK4_IN** = `5V_VIN` <br>
+
+**LDO16_IN** = `PMIC_VOUT4_3V3` <br>
+**LDO25_IN** = `5V_VIN` <br>
+**LDO3_IN**  = `PMIC_VOUT2_VDD_DDR` <br>
+
+
 
 
 
