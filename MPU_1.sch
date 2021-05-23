@@ -352,58 +352,6 @@ Wire Wire Line
 	3550 1700 3400 1700
 Wire Wire Line
 	3550 1800 3400 1800
-Text GLabel 3550 3100 2    50   UnSpc ~ 0
-SDMMC3_D0
-Text GLabel 3550 3200 2    50   UnSpc ~ 0
-SDMMC3_D1
-Text GLabel 3550 3300 2    50   UnSpc ~ 0
-SDMMC3_D2
-Text GLabel 3550 3400 2    50   UnSpc ~ 0
-SDMMC3_D3
-Text GLabel 3550 3500 2    50   UnSpc ~ 0
-SDMMC3_CK
-Text GLabel 3550 3600 2    50   UnSpc ~ 0
-SDMMC3_CMD
-Text GLabel 3550 3700 2    50   UnSpc ~ 0
-WIFI_WKUP
-Text GLabel 3550 3800 2    50   UnSpc ~ 0
-WIFI_IRQ
-Wire Wire Line
-	3550 3100 3400 3100
-Wire Wire Line
-	3550 3200 3400 3200
-Wire Wire Line
-	3550 3300 3400 3300
-Wire Wire Line
-	3550 3400 3400 3400
-Wire Wire Line
-	3550 3500 3400 3500
-Wire Wire Line
-	3550 3600 3400 3600
-Wire Wire Line
-	3550 3700 3400 3700
-Wire Wire Line
-	3550 3800 3400 3800
-Text GLabel 3550 4000 2    50   UnSpc ~ 0
-BLE_USART3_TX
-Text GLabel 3550 4100 2    50   UnSpc ~ 0
-BLE_USART3_RX
-Text GLabel 3550 4200 2    50   UnSpc ~ 0
-BLE_USART3_CTS
-Text GLabel 3550 4300 2    50   UnSpc ~ 0
-BLE_USART3_RTS
-Text GLabel 3550 4400 2    50   UnSpc ~ 0
-BLE_RESET
-Wire Wire Line
-	3400 4000 3550 4000
-Wire Wire Line
-	3400 4100 3550 4100
-Wire Wire Line
-	3400 4200 3550 4200
-Wire Wire Line
-	3400 4300 3550 4300
-Wire Wire Line
-	3400 4400 3550 4400
 Text GLabel 5250 1250 0    50   UnSpc ~ 0
 LCD_R0
 Text GLabel 5250 1350 0    50   UnSpc ~ 0
@@ -898,4 +846,17 @@ F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 5500 1900 50  0
 	2    6200 2900
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3400 3100
+NoConn ~ 3400 3200
+NoConn ~ 3400 3300
+NoConn ~ 3400 3400
+NoConn ~ 3400 3500
+NoConn ~ 3400 3600
+NoConn ~ 3400 3700
+NoConn ~ 3400 3800
+NoConn ~ 3400 4000
+NoConn ~ 3400 4100
+NoConn ~ 3400 4200
+NoConn ~ 3400 4300
+NoConn ~ 3400 4400
 $EndSCHEMATC

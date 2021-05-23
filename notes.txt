@@ -4,3 +4,16 @@ Project Name: Snap Card
 MPU Part Number: STM32MP157CAC3
 Package: TFBGA361 12x12, 361 balls pitch 0.5 mm
 
+
+1. The main IOs voltage supply (VDD ) range is 1.71 V to 3.6 V.
+2. The core logic operating voltage supply (VDDCORE ) range is 1.18 V to 1.25 V.
+3. The USB supplies (V DD3V3_USBHS and V DD3V3_USBFS ) range is 3.07 V to 3.6 V.
+4. Embedded regulators are used to supply some internal blocks.
+	– 1.2 V LDO for DSI available on VDD1V2_DSI_REG which is used to supply DSI PLL
+	  and VDD1V2_DSI_PHY pin. Range is 1.15 V to 1.26 V.
+	– 1.8 V LDO for DSI and USB available on VDDA1V8_REG which is used to supply
+	  USB internally and VDDA1V8_DSI.
+	  When BYPASS_REG1V8 = V DD , V DDA1V8_REG must be supplied externally. In
+	  that case, range is 1.65 V to 1.95 V.
+	– 1.1 V LDO for USB available on V DD1V1_REG for external decoupling.
+	Note: Embedded regulators must not be used to supply external components.

@@ -1,0 +1,8 @@
+site_name: Snap Board Design Notes
+
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
+markdown_extensions:
+  - admonition
