@@ -64,26 +64,6 @@ Wire Notes Line style solid
 Text Notes 7050 3400 0    79   ~ 16
 eMMC
 Wire Notes Line style solid
-	6100 3800 6100 4200
-Wire Notes Line style solid
-	6100 4200 6800 4200
-Wire Notes Line style solid
-	6800 4200 6800 3800
-Wire Notes Line style solid
-	6800 3800 6100 3800
-Text Notes 6300 4050 0    79   ~ 16
-WiFi
-Wire Notes Line style solid
-	6800 2800 6800 2400
-Wire Notes Line style solid
-	6800 2400 6100 2400
-Wire Notes Line style solid
-	6100 2400 6100 2800
-Wire Notes Line style solid
-	6100 2800 6800 2800
-Text Notes 6550 2629 2    79   ~ 16
-BLE
-Wire Notes Line style solid
 	6550 4700 6550 5100
 Wire Notes Line style solid
 	6550 5100 7250 5100
@@ -224,8 +204,6 @@ DSI\nConnector
 Wire Notes Line width 8 style solid rgb(0, 0, 0)
 	6900 4300 6900 4700
 Wire Notes Line width 8 style solid rgb(0, 0, 0)
-	6450 3050 6450 2800
-Wire Notes Line width 8 style solid rgb(0, 0, 0)
 	6000 5100 6000 5350
 Wire Notes Line width 8 style solid rgb(0, 0, 0)
 	5000 1900 5000 2300
@@ -251,32 +229,30 @@ Wire Notes Line style solid
 	6650 3050 5350 3050
 Text Notes 5400 3450 0    79   ~ 16
 STM32MP157xx\nMicroprocessor Unit
-Wire Notes Line width 8 style solid rgb(0, 0, 0)
-	6450 3800 6450 3600
 Wire Notes Line width 8 style solid rgb(255, 0, 0)
-	5600 2800 5600 3050
-Text Notes 5450 2650 0    79   ~ 16
+	6000 2800 6000 3050
+Text Notes 5850 2650 0    79   ~ 16
 PMIC
 Wire Notes Line style solid
-	5950 2400 5250 2400
+	6350 2400 5650 2400
 Wire Notes Line style solid
-	5950 2800 5950 2400
+	6350 2800 6350 2400
 Wire Notes Line style solid
-	5250 2800 5950 2800
+	5650 2800 6350 2800
 Wire Notes Line style solid
-	5250 2400 5250 2800
+	5650 2400 5650 2800
 Wire Notes Line style solid
-	5250 3800 5250 4200
+	5650 3800 5650 4200
 Wire Notes Line style solid
-	5250 4200 5950 4200
+	5650 4200 6350 4200
 Wire Notes Line style solid
-	5950 4200 5950 3800
+	6350 4200 6350 3800
 Wire Notes Line style solid
-	5950 3800 5250 3800
-Text Notes 5250 4100 0    79   ~ 16
+	6350 3800 5650 3800
+Text Notes 5650 4100 0    79   ~ 16
 Snap\nConnectors
 Wire Notes Line width 8 style solid rgb(0, 0, 0)
-	5600 3800 5600 3600
+	6000 3800 6000 3600
 Wire Notes Line width 8 style solid rgb(0, 0, 0)
 	5350 3350 5100 3350
 Wire Notes Line style solid
