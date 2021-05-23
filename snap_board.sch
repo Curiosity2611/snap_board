@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title "SNAP PROJECT OVERVIEW"
 Date "2021-05-20"
 Rev "1.0.0"
@@ -53,14 +53,6 @@ Wire Notes Line style solid
 	9100 3650 8400 3650
 Text Notes 8600 3950 0    79   ~ 16
 uSD\nSlot
-Wire Notes Line style solid
-	6900 3150 6900 3550
-Wire Notes Line style solid
-	6900 3550 7600 3550
-Wire Notes Line style solid
-	7600 3550 7600 3150
-Wire Notes Line style solid
-	7600 3150 6900 3150
 Text Notes 7050 3400 0    79   ~ 16
 eMMC
 Wire Notes Line style solid
@@ -152,8 +144,6 @@ Wire Notes Line style solid
 Wire Notes Line style solid
 	2850 3700 2850 4100
 Wire Notes Line style solid
-	4650 1500 4650 1900
-Wire Notes Line style solid
 	4650 1900 5350 1900
 Wire Notes Line style solid
 	5350 1900 5350 1500
@@ -171,14 +161,6 @@ Wire Notes Line style solid
 	6350 1500 5650 1500
 Text Notes 5750 1750 0    79   ~ 16
 2xButton
-Wire Notes Line style solid
-	6550 1500 6550 1900
-Wire Notes Line style solid
-	6550 1900 7250 1900
-Wire Notes Line style solid
-	7250 1900 7250 1500
-Wire Notes Line style solid
-	7250 1500 6550 1500
 Text Notes 6700 1800 0    79   ~ 16
 GPIO\nHeader
 Wire Notes Line width 8 style solid rgb(0, 0, 0)
@@ -213,50 +195,18 @@ Wire Notes Line width 8 style solid rgb(0, 0, 0)
 	6900 1900 6900 2300
 Text Notes 4550 3450 0    79   ~ 16
 DDR3L\nRAM
-Wire Notes Line style solid
-	5100 3150 4400 3150
-Wire Notes Line style solid
-	4400 3550 5100 3550
-Wire Notes Line style solid
-	4400 3150 4400 3550
-Wire Notes Line style solid
-	5350 3050 5350 3600
-Wire Notes Line style solid
-	5350 3600 6650 3600
-Wire Notes Line style solid
-	6650 3600 6650 3050
-Wire Notes Line style solid
-	6650 3050 5350 3050
 Text Notes 5400 3450 0    79   ~ 16
-STM32MP157xx\nMicroprocessor Unit
+STM32MP15xxx\nMicroprocessor Unit
 Wire Notes Line width 8 style solid rgb(255, 0, 0)
 	6000 2800 6000 3050
 Text Notes 5850 2650 0    79   ~ 16
 PMIC
-Wire Notes Line style solid
-	6350 2400 5650 2400
-Wire Notes Line style solid
-	6350 2800 6350 2400
-Wire Notes Line style solid
-	5650 2800 6350 2800
-Wire Notes Line style solid
-	5650 2400 5650 2800
-Wire Notes Line style solid
-	5650 3800 5650 4200
-Wire Notes Line style solid
-	5650 4200 6350 4200
-Wire Notes Line style solid
-	6350 4200 6350 3800
-Wire Notes Line style solid
-	6350 3800 5650 3800
 Text Notes 5650 4100 0    79   ~ 16
 Snap\nConnectors
 Wire Notes Line width 8 style solid rgb(0, 0, 0)
 	6000 3800 6000 3600
 Wire Notes Line width 8 style solid rgb(0, 0, 0)
 	5350 3350 5100 3350
-Wire Notes Line style solid
-	5100 3550 5100 3150
 Text Notes 4200 2800 0    118  ~ 24
 SNAP\nCARD
 Wire Notes Line width 8 style solid rgb(255, 0, 0)
@@ -265,14 +215,6 @@ Wire Notes Line width 8 style solid rgb(0, 0, 0)
 	8000 2650 8400 2650
 Text Notes 8450 2750 0    79   ~ 16
 Peripheral\nPorts
-Wire Notes Line style solid
-	9100 2450 8400 2450
-Wire Notes Line style solid
-	9100 2850 9100 2450
-Wire Notes Line style solid
-	8400 2850 9100 2850
-Wire Notes Line style solid
-	8400 2450 8400 2850
 Wire Notes Line width 8 style solid
 	10150 5900 10150 1350
 Wire Notes Line style solid
@@ -296,39 +238,51 @@ F0 "Top Sheet" 79
 F1 "Top Sheet.sch" 79
 $EndSheet
 $Sheet
-S 14550 3000 1550 1000
-U 60A73E6A
-F0 "MPU Power & Reset" 50
-F1 "MPU Power & Reset.sch" 50
+S 5350 3050 1300 550 
+U 60B2563F
+F0 "STM32MP15xx_MPU" 50
+F1 "STM32MP15xx_MPU.sch" 50
 $EndSheet
 $Sheet
-S 12400 1700 1550 900 
-U 60A9AEDE
-F0 "PMIC Power" 50
-F1 "PMIC Power.sch" 50
+S 4400 3150 700  400 
+U 61255860
+F0 "DDR3L_RAM" 50
+F1 "DDR3L_RAM.sch" 50
 $EndSheet
 $Sheet
-S 12400 3000 1550 950 
-U 60DF6F52
-F0 "Connectors" 50
-F1 "Connectors.sch" 50
-$EndSheet
-$Sheet
-S 14600 1600 1500 1000
-U 60AD97EF
-F0 "MPU_1" 50
-F1 "MPU_1.sch" 50
-$EndSheet
-$Sheet
-S 14550 4400 1550 900 
-U 60CA7234
-F0 "MPU & DDR3L" 50
-F1 "MPU & DDR3L.sch" 50
-$EndSheet
-$Sheet
-S 12400 4400 1600 900 
-U 62646A24
+S 6900 3150 700  400 
+U 6146B2DF
 F0 "eMMC" 50
 F1 "eMMC.sch" 50
 $EndSheet
+$Sheet
+S 5650 2400 700  400 
+U 61484B0A
+F0 "STPMIC" 50
+F1 "STPMIC.sch" 50
+$EndSheet
+Wire Notes Line style solid
+	4650 1500 4650 1900
+$Sheet
+S 5650 3800 700  400 
+U 614D1FEA
+F0 "Board to Board Connectors" 50
+F1 "Board to Board Connectors.sch" 50
+$EndSheet
+Wire Notes Line style solid
+	8400 2450 8400 2850
+Wire Notes Line style solid
+	8400 2850 9100 2850
+Wire Notes Line style solid
+	9100 2850 9100 2450
+Wire Notes Line style solid
+	9100 2450 8400 2450
+Wire Notes Line style solid
+	6550 1900 7250 1900
+Wire Notes Line style solid
+	7250 1900 7250 1500
+Wire Notes Line style solid
+	7250 1500 6550 1500
+Wire Notes Line style solid
+	6550 1500 6550 1900
 $EndSCHEMATC

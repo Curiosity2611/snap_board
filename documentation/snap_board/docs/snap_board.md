@@ -26,70 +26,59 @@ A package is selected by taking into account the following constraints:
 
 #### General
 
-The system is supplied with 12V DC power supply through a barrel jack connector present on the IO board. This 12V is step down to 5V using a buck converter on the I/O board. <br>
+The system is supplied with 12V DC power supply through a barrel jack connector present on the IO board. This 12V is step down to 5V using a buck converter on the I/O board and is supplied to the PMIC. <br>
 
 **Schematic Name Tag for 5V supply** - `5V_VIN` <br>
 
-The whole system's power is managed by ST's Power management IC present on the snap board.
-
-#### ST PMIC Specifications
+#### ST PMIC Overview
 
 **Manfacturer Part Number** - STPMIC1BPQR <br>
 **Package** - WFQFN 44L <br>
 **Package Dimesion** - 5mm x 6mm x 0.8mm <br>
 
-**Electrical Specifications**
+!!! note
+    The STPMIC1A and STPMIC1B are pre-programmed devices to support the STM32MP1 series application processor versions. 
 
-PMIC Input Voltage Range (VIN) - 2.8V - 5.5V <br>
+The STPMIC1 provides all regulators needed to power supply a complete application. This IC is preset on Snap board. It has:
 
-**VIN** = `5V_VIN`
+- 6 LDOs + 1 reference voltage LDO for DDR Memories. 
+- 4 Step down (buck) converter. 
+- 1 step-up(boost) converter with a bypass to supply USB sub-system.
+- 2 power switches to supply USB sub-system. 
 
-#### PMIC LDOs
-
-![LDO Voltage Ranges](img/ldo_voltages.png)
-
-#### PMIC Buck Converters
-
-![Buck Converters Voltage Ranges](img/Buck_voltages.png)
-
-The start-up sequence is split into four steps (Rank0 to Rank3). Each BUCK converter or LDO regulator can be programmed to be automatically turned ON in one of these phases:
-
-- **Rank= 0:** Rail not turned ON automatically, no output voltage appears after POWER-UP.
-
-- **Rank= 1:** Rail automatically turned ON after 7 ms following a Turn_ON condition
-
-- **Rank= 2:** Rail automatically turned ON after further 3 ms
-
-- **Rank= 3:** Rail automatically turned ON after further 3 ms <br>
-
-Whatever the STPMIC1 version:
-
-- AUTO_TURN_ON option is set
-- Boost and switches cannot be turned ON automatically
-
-**BUCK1_IN** = `5V_VIN` <br>
-**BUCK2_IN** = `5V_VIN` <br>
-**BUCK3_IN** = `5V_VIN` <br>
-**BUCK4_IN** = `5V_VIN` <br>
-
-**LDO16_IN** = `PMIC_VOUT4_3V3` <br>
-**LDO25_IN** = `5V_VIN` <br>
-**LDO3_IN**  = `PMIC_VOUT2_VDD_DDR` <br>
+![PMIC regulators overview](img/pmic_regulators_overview.png)
 
 
+**LDO1, LDO2, LDO5, LDO6** are general purpose (GP) LDO (low-dropout) linear regulators and can be used to supply application peripherals. <br>
+
+**LDO3** is a multipurpose linear regulator that supports 3 modes:
+
+- **Normal mode**: operates as standard LDO with 1.7 to 3.3 V output voltage range (for general purpose use)
+- **Sink/source mode**: LDO3 operates in sink/source regulation mode to supply termination resistors of DDR3/DDR3L memory interface (VTT voltage).
+- **Bypass mode**: LDO3 operates as a simple power switch to supply lpDDR2/3 VDD1 (1.8 V) power domain. In that case, LDO3IN is supplied by 1.8 V. This is a preferred mode versus normal mode in term of power efficiency to power supply lpDDR2/3 VDD1.
+
+!!! note
+    In this application LDO3 is used as Sink/Source mode.
+
+**LDO4** is a fixed output voltage (3.3 V) LDO and it is dedicated to power supply host processor USB PHY. <br>
+
+**DDR REF** is sink/source reference voltage LDO dedicated to power VREF of lpDDR/DDR.<br>
+
+**BOOST** is a fixed output voltage 5.2 V synchronous step-up converter dedicated to power supply USB ports (PWR_USB_SW and/or PWR_SW power switches).
+
+![PMIC Default Configuration](img/pmic_default_config.png)
+
+#### LDO Typical Schematic
+
+![Typical LDO Schematic](img/ldo_typical_sch.png)
 
 
+#### Powering DDR3 Memory with STPMIC
 
+In this project, DDR3L memory is used. 
 
+![Powering DDR3L Memory](img/powering_ddr3l_memory.png)
 
-
-
-
-
-
-
-
-
-
+LDO3IN is a power supply from BUCK2 output (VOUT2) and LDO3 output regulate at Vout2/2 voltage.
 
 
