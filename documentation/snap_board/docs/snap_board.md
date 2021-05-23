@@ -24,19 +24,60 @@ A package is selected by taking into account the following constraints:
 
 ### Power Supplies
 
-- The main IOs voltage supply **(VDD)** range is **1.71 V to 3.6 V**.
-- The core logic operating voltage supply **(VDDCORE)** range is **1.18 V to 1.25 V**.
-- The USB supplies **(VDD3V3_USBHS and VDD3V3_USBFS)** range is **3.07 V to 3.6 V**.
-- Embedded regulators are used to supply some internal blocks
-	- 1.2 V LDO for DSI available on VDD1V2_DSI_REG which is used to supply DSI PLL and VDD1V2_DSI_PHY pin. Range is **1.15 V to 1.26 V**.
-	- 1.8 V LDO for DSI and USB available on VDDA1V8_REG which is used to supply USB internally and VDDA1V8_DSI.
-	When BYPASS_REG1V8 = VDD, VDDA1V8_REG must be supplied externally. In that case, range is **1.65 V to 1.95 V**.
-	- 1.1 V LDO for USB available on VDD1V1_REG for external decoupling.
+#### General
 
-!!! Warning
-	Embedded regulators must not be used to supply external components.
+The system is supplied with 12V DC power supply through a barrel jack connector present on the IO board. This 12V is step down to 5V using a buck converter on the I/O board. <br>
 
-- The real-time clock (RTC) and backup registers can be powered from the VBAT voltage when the main VDD supply is powered off. This internal supply with automatic switch between VBAT and VDD is named VSW domain and is also used to supply PI8, PC13, PC14, PC15 pads. **VBAT** voltage range is **1.20 V to 3.6 V**.
+**Schematic Name Tag for 5V supply** - `5V_VIN` <br>
+
+The whole system's power is managed by ST's Power management IC present on the snap board.
+
+#### ST PMIC Specifications
+
+**Manfacturer Part Number** - STPMIC1BPQR <br>
+**Package** - WFQFN 44L <br>
+**Package Dimesion** - 5mm x 6mm x 0.8mm <br>
+
+**Electrical Specifications**
+
+PMIC Input Voltage Range (VIN) - 2.8V - 5.5V <br>
+
+PMIC VIN --> `5V_VIN`
+
+#### PMIC LDOs
+
+![LDO Voltage Ranges](img/ldo_voltages.png)
+
+#### PMIC Buck Converters
+
+![Buck Converters Voltage Ranges](img/Buck_voltages.png)
+
+The start-up sequence is split into four steps (Rank0 to Rank3). Each BUCK converter or LDO regulator can be programmed to be automatically turned ON in one of these phases:
+
+- **Rank= 0:** - Rail not turned ON automatically, no output voltage appears after POWER-UP.
+
+- **Rank= 1:** rail automatically turned ON after 7 ms following a Turn_ON condition
+
+- **Rank= 2:** rail automatically turned ON after further 3 ms
+
+- **Rank= 3:** rail automatically turned ON after further 3 ms <br>
+
+Whatever the STPMIC1 version:
+
+- AUTO_TURN_ON option is set
+- Boost and switches cannot be turned ON automatically
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

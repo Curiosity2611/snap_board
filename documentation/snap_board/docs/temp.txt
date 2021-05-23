@@ -1,0 +1,58 @@
+- The main IOs voltage supply **(VDD)** range is **1.71 V to 3.6 V**.
+- The core logic operating voltage supply **(VDDCORE)** range is **1.18 V to 1.25 V**.
+- The USB supplies **(VDD3V3_USBHS and VDD3V3_USBFS)** range is **3.07 V to 3.6 V**.
+- Embedded regulators are used to supply some internal blocks
+	- 1.2 V LDO for DSI available on VDD1V2_DSI_REG which is used to supply DSI PLL and VDD1V2_DSI_PHY pin. Range is **1.15 V to 1.26 V**.
+	- 1.8 V LDO for DSI and USB available on VDDA1V8_REG which is used to supply USB internally and VDDA1V8_DSI.
+	When BYPASS_REG1V8 = VDD, VDDA1V8_REG must be supplied externally. In that case, range is **1.65 V to 1.95 V**.
+	- 1.1 V LDO for USB available on VDD1V1_REG for external decoupling.
+
+!!! Warning
+	Embedded regulators must not be used to supply external components.
+
+- The real-time clock (RTC) and backup registers can be powered from the VBAT voltage when the main VDD supply is powered off. This internal supply with automatic switch between VBAT and VDD is named VSW domain and is also used to supply PI8, PC13, PC14, PC15 pads. **VBAT** voltage range is **1.20 V to 3.6 V**.
+
+![Power Supply Scheme](img/power_supply_scheme.png)
+
+#### ADC & DAC Supply
+
+To improve the conversion accuracy and dynamic range, the ADC, DAC and reference have
+an independent power supply that can be filtered separately, and shielded from noise on the
+PCB. <br>
+
+The analog operating voltage supply (VDDA ) range is 1.71 V to 3.6 V 
+
+!!! note
+	DAC could only be used when VDDA is above or equal 1.8 V)
+
+- The ADC/DAC/VREFBUF voltage supply input is available on a separate VDDA pin.
+- An isolated supply ground connection is provided on the VSSA pin.
+In all cases, the VSSA pin should be externally connected to same supply ground than
+VSS
+
+##### External VREF
+The user can connect a separate external reference voltage ADC/DAC input on VREF+ . The
+voltage on VREF+ may range from 1.62 V to VDDA.
+
+!!! note 
+	In order to work, DAC requires VREF+ above 1.8V.
+
+##### Internal VREF
+The user can enable in the VREFBUF block an internal reference voltage on VREF+. The voltage on VREF+ could be selected between 1.5 V, 1.8 V, 2.048V and 2.5V.<br>
+
+With internal VREF available on VREF+ pin, it could be used externally (for example for
+analog comparator reference) if loading is kept within datasheet values.
+
+!!! note 
+	In order to work, DAC requires VREF+ above 1.8V.
+	The VREFBUF requires VDDA equal to or higher than VREF+ +0.3 V.
+
+#### ADC Max Performance
+The ADC inputs are multiplexed with analog switches which have reduced performances
+when VDDA supply is below 2.7 V. In order to get maximum ADC analog performances, it is
+alternatively possible to supply analog switches with either VDD (if above 2.7 V) or an
+embedded 3.3 V booster from VDDA. <br>
+
+The control is done in the SYSCFG_PMCR register.
+
+![ADC SYSCFG_PMCR Register](img/ADC_SYSCFG_settings.png)
