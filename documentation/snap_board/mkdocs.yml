@@ -1,8 +1,9 @@
-site_name: Snap Board Design Notes
+site_name: Snap Project Documentation
 
 nav:
     - Home: index.md
     - Reference Docs: reference.md
+    - Snap Board Notes: snap_board.md
 
 
 theme: readthedocs
