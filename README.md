@@ -1,3 +1,7 @@
+## About the project
+
+### Problem
+
 Recently I came accross the ST's line of Microprocessors and I felt it fascinating. I personally felt this is one of the best Microprocessor out there in the market as it is the combination of an MPU and an  MCU. This combination has many use cases and I felt I should try this out. So I bought STM32MP157C-DK2 development board and started experimenting! <br>
 
 Previously I had little experience working on couple of popular linux dev boards like the BeagleBone Black
@@ -29,7 +33,7 @@ and the Raspberry Pi. They are both fantastic boards to work with and they both 
 - Support for MIPI-DSI display for HMI applications.
 - Fully open-source Hardware and Software.
 
-### Full Documentation
+## Full Documentation
 
 The full documentation is done using mkdocs tool and is present in the documentation folder. To view the doucmentation:
 - Install mkdocs tool in your system.
