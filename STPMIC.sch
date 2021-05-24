@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
-Title ""
-Date ""
-Rev ""
+Title "ST Power Management IC"
+Date "2021-05-20"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1696,7 +1696,7 @@ Wire Wire Line
 Text GLabel 3750 3400 0    50   Input ~ 0
 I2C4_SCL
 Text GLabel 3750 3300 0    50   BiDi ~ 0
-I2C4_SDS
+I2C4_SDA
 Text GLabel 3750 3600 0    50   Output ~ 0
 PA0_WKUP
 Wire Wire Line
@@ -1802,4 +1802,20 @@ F 3 "" H 4300 2450 50  0001 C CNN
 	1    4300 2450
 	0    -1   -1   0   
 $EndComp
+Text Label 4300 3300 2    50   ~ 0
+I2C4_SDA
+Text Label 4300 3400 2    50   ~ 0
+I2C4_SCL
+Text Label 4300 3600 2    50   ~ 0
+PA0_WKUP
+Text Label 4300 3800 2    50   ~ 0
+POWER_ON
+Text Label 4200 3900 2    50   ~ 0
+NRST
+Text Label 4400 4150 2    50   ~ 0
+PMIC_WAKEUP
+Text Label 4250 4400 2    50   ~ 0
+nPONKEY
+Text Notes 3250 3850 2    50   ~ 0
+To MPU
 $EndSCHEMATC

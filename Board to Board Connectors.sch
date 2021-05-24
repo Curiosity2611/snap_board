@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
-Title ""
-Date ""
-Rev ""
+Title "Board to Board Snap Connectors"
+Date "2021-05-20"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -177,7 +177,7 @@ NoConn ~ 6250 5100
 Text GLabel 5350 1800 0    50   Input ~ 0
 I2C4_SCL
 Text GLabel 5350 1700 0    50   BiDi ~ 0
-I2C4_SDS
+I2C4_SDA
 Text GLabel 5350 2200 0    50   Input ~ 0
 nPONKEY
 Text GLabel 5350 2300 0    50   Input ~ 0
@@ -222,7 +222,7 @@ ETH_GTX_CLK
 Text GLabel 2600 3100 0    50   UnSpc ~ 0
 ETH_TX_EN
 Text GLabel 2600 3200 0    50   UnSpc ~ 0
-EHT_RX_DV
+ETH_RX_DV
 Text GLabel 2600 3300 0    50   UnSpc ~ 0
 ETH_CLK
 Text GLabel 2600 3400 0    50   UnSpc ~ 0

@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
-Title ""
-Date ""
-Rev ""
+Title "4GB eMMC Flash Memory"
+Date "2021-05-20"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
