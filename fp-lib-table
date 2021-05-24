@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name U_Connector)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Connector.pretty)(options "")(descr ""))
+  (lib (name U_Module)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Module.pretty)(options "")(descr ""))
+  (lib (name U_Oscillator)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Oscillator.pretty)(options "")(descr ""))
+  (lib (name U_Package_BGA)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Package_BGA.pretty)(options "")(descr ""))
+  (lib (name U_Package_LGA)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Package_LGA.pretty)(options "")(descr ""))
+  (lib (name U_Inductor_SMD)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Inductor_SMD.pretty)(options "")(descr ""))
+  (lib (name U_Package_QFN)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Package_QFN.pretty)(options "")(descr ""))
+  (lib (name U_Crystal)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Crystal.pretty)(options "")(descr ""))
+)
