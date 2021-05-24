@@ -1,4 +1,4 @@
-19106852040920920
+19106852050260920
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82349,7 +82349,7 @@ Integrated Circuit
 153
 U_Package_BGA
 STM32MP157CAC3
-Dual Core A7 + M4 MPU
+Dual Core A7 + M4
 
 0
 361

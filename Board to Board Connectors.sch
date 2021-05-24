@@ -184,14 +184,6 @@ Text GLabel 5350 2200 0    50   Input ~ 0
 nPONKEY
 Text GLabel 5350 2300 0    50   Input ~ 0
 NRST
-Wire Wire Line
-	5350 1700 5550 1700
-Wire Wire Line
-	5350 1800 5550 1800
-Wire Wire Line
-	5350 2200 5550 2200
-Wire Wire Line
-	5350 2300 5550 2300
 NoConn ~ 5550 2000
 Text GLabel 2600 1700 0    50   UnSpc ~ 0
 ETH_TXD0
@@ -475,4 +467,8 @@ NoConn ~ 9150 4800
 NoConn ~ 9150 4900
 NoConn ~ 9150 5000
 NoConn ~ 9150 5100
+NoConn ~ 5550 1700
+NoConn ~ 5550 1800
+NoConn ~ 5550 2200
+NoConn ~ 5550 2300
 $EndSCHEMATC
