@@ -863,7 +863,7 @@ F 3 "" H 8850 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L U_Power:PMIC_LDO2_2V5 #PWR?
+L snap_board-rescue:PMIC_LDO2_2V5-U_Power #PWR?
 U 1 1 614B60BA
 P 9250 4450
 AR Path="/60A9AEDE/614B60BA" Ref="#PWR?"  Part="1" 
@@ -1338,7 +1338,7 @@ F 3 "" H 1650 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L U_Power:PMIC_LDO2_2V5 #PWR?
+L snap_board-rescue:PMIC_LDO2_2V5-U_Power #PWR?
 U 1 1 614B619F
 P 1250 7100
 AR Path="/60A9AEDE/614B619F" Ref="#PWR?"  Part="1" 

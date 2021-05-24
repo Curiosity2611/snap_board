@@ -527,7 +527,7 @@ Wire Wire Line
 	7500 4100 7650 4100
 Connection ~ 7650 4100
 Wire Wire Line
-	7650 4100 7650 3900
+	7650 4100 7650 4000
 Wire Wire Line
 	7500 4200 7650 4200
 Connection ~ 7650 4200
@@ -1006,50 +1006,6 @@ To PMIC
 Wire Wire Line
 	4000 2100 4150 2100
 Connection ~ 4150 2100
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U?
-U 3 1 60B567EC
-P 12400 7900
-AR Path="/60A73E6A/60B567EC" Ref="U?"  Part="4" 
-AR Path="/60B2563F/60B567EC" Ref="U1"  Part="3" 
-F 0 "U1" H 11750 9700 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 12000 6050 50  0000 C CNN
-F 2 "U_Package_BGA:STM32MP157CAC3" H 11700 6900 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 11700 6900 50  0001 C CNN
-F 4 "STM32MP157CAC3" H 12400 7900 50  0001 C CNN "MNP"
-	3    12400 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U?
-U 1 1 60B567F2
-P 2700 8150
-AR Path="/60A73E6A/60B567F2" Ref="U?"  Part="6" 
-AR Path="/60B2563F/60B567F2" Ref="U1"  Part="1" 
-F 0 "U1" H 2100 10100 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 2350 6500 50  0000 C CNN
-F 2 "U_Package_BGA:STM32MP157CAC3" H 2000 7150 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 2000 7150 50  0001 C CNN
-F 4 "STM32MP157CAC3" H 2700 8150 50  0001 C CNN "MNP"
-	1    2700 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U?
-U 2 1 60D7A6A6
-P 7350 8050
-AR Path="/60A73E6A/60D7A6A6" Ref="U?"  Part="1" 
-AR Path="/60AD97EF/60D7A6A6" Ref="U?"  Part="5" 
-AR Path="/60CA7234/60D7A6A6" Ref="U?"  Part="5" 
-AR Path="/60B2563F/60D7A6A6" Ref="U1"  Part="2" 
-F 0 "U1" H 6850 9850 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 7100 6400 50  0000 C CNN
-F 2 "U_Package_BGA:STM32MP157CAC3" H 6650 7050 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 6650 7050 50  0001 C CNN
-F 4 "STM32MP157CAC3" H 7350 8050 50  0001 C CNN "MNP"
-	2    7350 8050
-	1    0    0    -1  
-$EndComp
 NoConn ~ 11950 3250
 NoConn ~ 11950 3350
 NoConn ~ 11950 3450
@@ -1247,9 +1203,9 @@ DDR_DQ14
 Text Label 11450 2750 0    50   ~ 0
 DDR_DQ15
 Text Label 11450 2850 0    50   ~ 0
-DDR_DQS1P
+DDR_DQS1_P
 Text Label 11450 2950 0    50   ~ 0
-DDR_DQS1N
+DDR_DQS1_N
 Text Label 11450 3050 0    50   ~ 0
 DDR_DQM1
 Wire Wire Line
@@ -1745,21 +1701,6 @@ Text GLabel 8700 7000 2    50   UnSpc ~ 0
 DSI_CKP
 Text GLabel 8700 7100 2    50   UnSpc ~ 0
 DSI_CKN
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U?
-U 4 1 60DD933E
-P 3100 3050
-AR Path="/60A73E6A/60DD933E" Ref="U?"  Part="3" 
-AR Path="/60AD97EF/60DD933E" Ref="U?"  Part="3" 
-AR Path="/60B2563F/60DD933E" Ref="U1"  Part="4" 
-F 0 "U1" H 2450 5150 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 2700 1000 50  0000 C CNN
-F 2 "U_Package_BGA:STM32MP157CAC3" H 2400 2050 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 2400 2050 50  0001 C CNN
-F 4 "STM32MP157CAC3" H 3100 3050 50  0001 C CNN "MNP"
-	4    3100 3050
-	1    0    0    -1  
-$EndComp
 Text GLabel 10700 6250 0    50   UnSpc ~ 0
 STLINK_UART4_RX
 Text GLabel 10700 6350 0    50   UnSpc ~ 0
@@ -2005,36 +1946,6 @@ F 3 "" H 8250 8950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8250 8950 8150 8950
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U?
-U 6 1 60DD93EB
-P 6850 2950
-AR Path="/60A73E6A/60DD93EB" Ref="U?"  Part="1" 
-AR Path="/60AD97EF/60DD93EB" Ref="U?"  Part="1" 
-AR Path="/60B2563F/60DD93EB" Ref="U1"  Part="6" 
-F 0 "U1" H 6500 4450 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 6750 1350 50  0000 C CNN
-F 2 "U_Package_BGA:STM32MP157CAC3" H 6150 1950 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 6150 1950 50  0001 C CNN
-F 4 "STM32MP157CAC3" H 6850 2950 50  0001 C CNN "MNP"
-	6    6850 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L U_Microprocessor:STM32MP157CAC3 U?
-U 5 1 60DD93F1
-P 12750 2750
-AR Path="/60A73E6A/60DD93F1" Ref="U?"  Part="2" 
-AR Path="/60AD97EF/60DD93F1" Ref="U?"  Part="2" 
-AR Path="/60B2563F/60DD93F1" Ref="U1"  Part="5" 
-F 0 "U1" H 12200 4850 50  0000 C CNN
-F 1 "STM32MP157CAC3" H 12500 -100 50  0000 C CNN
-F 2 "U_Package_BGA:STM32MP157CAC3" H 12050 1750 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 12050 1750 50  0001 C CNN
-F 4 "STM32MP157CAC3" H 12750 2750 50  0001 C CNN "MNP"
-	5    12750 2750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3550 8200
 NoConn ~ 3550 8300
 NoConn ~ 3550 8400
@@ -2113,9 +2024,9 @@ DDR_DQ14
 Text GLabel 11350 2750 0    50   UnSpc ~ 0
 DDR_DQ15
 Text GLabel 11350 2850 0    50   UnSpc ~ 0
-DDR_DQS1P
+DDR_DQS1_P
 Text GLabel 11350 2950 0    50   UnSpc ~ 0
-DDR_DQS1N
+DDR_DQS1_N
 Text GLabel 11350 3050 0    50   UnSpc ~ 0
 DDR_DQM1
 Text GLabel 14150 800  2    50   UnSpc ~ 0
@@ -2668,4 +2579,75 @@ F 3 "" H 2150 5400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 5400 2150 5400
+Wire Wire Line
+	7500 4000 7650 4000
+Connection ~ 7650 4000
+Wire Wire Line
+	7650 4000 7650 3900
+$Comp
+L U_Microprocessor:STM32MP157CAC3 U1
+U 1 1 60D02B4A
+P 2700 8150
+F 0 "U1" H 2675 10215 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 2675 10124 50  0000 C CNN
+F 2 "U_Package_BGA:STM32MP157CAC3" H 2000 7150 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 2000 7150 50  0001 C CNN
+	1    2700 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Microprocessor:STM32MP157CAC3 U1
+U 2 1 60D120AE
+P 7350 8050
+F 0 "U1" H 7350 9965 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 7350 9874 50  0000 C CNN
+F 2 "U_Package_BGA:STM32MP157CAC3" H 6650 7050 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 6650 7050 50  0001 C CNN
+	2    7350 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Microprocessor:STM32MP157CAC3 U1
+U 3 1 60D21318
+P 12400 7900
+F 0 "U1" H 12400 9815 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 12400 9724 50  0000 C CNN
+F 2 "U_Package_BGA:STM32MP157CAC3" H 11700 6900 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 11700 6900 50  0001 C CNN
+	3    12400 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Microprocessor:STM32MP157CAC3 U1
+U 4 1 60D3AE18
+P 3100 3050
+F 0 "U1" H 3075 5265 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 3075 5174 50  0000 C CNN
+F 2 "U_Package_BGA:STM32MP157CAC3" H 2400 2050 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 2400 2050 50  0001 C CNN
+	4    3100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Microprocessor:STM32MP157CAC3 U1
+U 5 1 60D4C919
+P 12750 2750
+F 0 "U1" H 12750 4965 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 12750 4874 50  0000 C CNN
+F 2 "U_Package_BGA:STM32MP157CAC3" H 12050 1750 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 12050 1750 50  0001 C CNN
+	5    12750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_Microprocessor:STM32MP157CAC3 U1
+U 6 1 60D71FFF
+P 6850 2950
+F 0 "U1" H 6875 4565 50  0000 C CNN
+F 1 "STM32MP157CAC3" H 6875 4474 50  0000 C CNN
+F 2 "U_Package_BGA:STM32MP157CAC3" H 6150 1950 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 6150 1950 50  0001 C CNN
+	6    6850 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -499,9 +499,9 @@ DDR_DQ14
 Text Label 1600 3100 0    50   ~ 0
 DDR_DQ15
 Text Label 1600 3200 0    50   ~ 0
-DDR_DQS1P
+DDR_DQS1_P
 Text Label 1600 3300 0    50   ~ 0
-DDR_DQS1N
+DDR_DQS1_N
 Text Label 1600 3400 0    50   ~ 0
 DDR_DQM1
 Text Label 9100 4050 2    50   ~ 0
@@ -1993,9 +1993,9 @@ DDR_DQ14
 Text GLabel 1500 3100 0    50   UnSpc ~ 0
 DDR_DQ15
 Text GLabel 1500 3200 0    50   UnSpc ~ 0
-DDR_DQS1P
+DDR_DQS1_P
 Text GLabel 1500 3300 0    50   UnSpc ~ 0
-DDR_DQS1N
+DDR_DQS1_N
 Text GLabel 1500 3400 0    50   UnSpc ~ 0
 DDR_DQM1
 Text GLabel 3950 3150 2    50   UnSpc ~ 0
