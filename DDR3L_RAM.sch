@@ -417,92 +417,92 @@ F 5 "RC0402JR-7D100RL" H 2950 4950 50  0001 C CNN "MNP"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1500 1150 2100 1150
-Wire Wire Line
-	1500 1250 2100 1250
-Wire Wire Line
-	1500 1350 2100 1350
-Wire Wire Line
-	1500 1450 2100 1450
-Wire Wire Line
-	1500 1550 2100 1550
-Wire Wire Line
-	1500 1650 2100 1650
-Wire Wire Line
-	1500 1750 2100 1750
-Wire Wire Line
-	1500 1850 2100 1850
-Text Label 1600 1150 0    50   ~ 0
-DDR_DQ0
-Text Label 1600 1250 0    50   ~ 0
-DDR_DQ1
-Text Label 1600 1350 0    50   ~ 0
-DDR_DQ2
-Text Label 1600 1450 0    50   ~ 0
-DDR_DQ3
-Text Label 1600 1550 0    50   ~ 0
-DDR_DQ4
-Text Label 1600 1650 0    50   ~ 0
-DDR_DQ5
-Text Label 1600 1750 0    50   ~ 0
-DDR_DQ6
-Text Label 1600 1850 0    50   ~ 0
-DDR_DQ7
-Wire Wire Line
-	1500 1950 2100 1950
-Wire Wire Line
-	1500 2050 2100 2050
-Wire Wire Line
-	1500 2150 2100 2150
-Text Label 1600 1950 0    50   ~ 0
-DDR_DQS0_P
-Text Label 1600 2050 0    50   ~ 0
-DDR_DQS0_N
-Text Label 1600 2150 0    50   ~ 0
-DDR_DQM0
-Wire Wire Line
-	1500 2400 2100 2400
+	1500 2900 2100 2900
 Wire Wire Line
 	1500 2500 2100 2500
 Wire Wire Line
-	1500 2600 2100 2600
+	1500 2800 2100 2800
 Wire Wire Line
 	1500 2700 2100 2700
 Wire Wire Line
-	1500 2800 2100 2800
-Wire Wire Line
-	1500 2900 2100 2900
-Wire Wire Line
 	1500 3000 2100 3000
 Wire Wire Line
-	1500 3100 2100 3100
+	1500 2600 2100 2600
 Wire Wire Line
-	1500 3200 2100 3200
+	1500 2400 2100 2400
+Wire Wire Line
+	1500 3100 2100 3100
+Text Label 1600 2900 0    50   ~ 0
+DDR_DQ0
+Text Label 1600 2500 0    50   ~ 0
+DDR_DQ1
+Text Label 1600 2800 0    50   ~ 0
+DDR_DQ2
+Text Label 1600 2700 0    50   ~ 0
+DDR_DQ3
+Text Label 1600 3000 0    50   ~ 0
+DDR_DQ4
+Text Label 1600 2600 0    50   ~ 0
+DDR_DQ5
+Text Label 1600 2400 0    50   ~ 0
+DDR_DQ6
+Text Label 1600 3100 0    50   ~ 0
+DDR_DQ7
 Wire Wire Line
 	1500 3300 2100 3300
 Wire Wire Line
+	1500 3200 2100 3200
+Wire Wire Line
 	1500 3400 2100 3400
-Text Label 1600 2400 0    50   ~ 0
-DDR_DQ8
-Text Label 1600 2500 0    50   ~ 0
-DDR_DQ9
-Text Label 1600 2600 0    50   ~ 0
-DDR_DQ10
-Text Label 1600 2700 0    50   ~ 0
-DDR_DQ11
-Text Label 1600 2800 0    50   ~ 0
-DDR_DQ12
-Text Label 1600 2900 0    50   ~ 0
-DDR_DQ13
-Text Label 1600 3000 0    50   ~ 0
-DDR_DQ14
-Text Label 1600 3100 0    50   ~ 0
-DDR_DQ15
-Text Label 1600 3200 0    50   ~ 0
-DDR_DQS1_P
 Text Label 1600 3300 0    50   ~ 0
-DDR_DQS1_N
+DDR_DQS0_P
+Text Label 1600 3200 0    50   ~ 0
+DDR_DQS0_N
 Text Label 1600 3400 0    50   ~ 0
+DDR_DQM0
+Wire Wire Line
+	1500 1350 2100 1350
+Wire Wire Line
+	1500 1150 2100 1150
+Wire Wire Line
+	1500 1750 2100 1750
+Wire Wire Line
+	1500 1250 2100 1250
+Wire Wire Line
+	1500 1650 2100 1650
+Wire Wire Line
+	1500 1550 2100 1550
+Wire Wire Line
+	1500 1850 2100 1850
+Wire Wire Line
+	1500 1450 2100 1450
+Wire Wire Line
+	1500 2050 2100 2050
+Wire Wire Line
+	1500 1950 2100 1950
+Wire Wire Line
+	1500 2150 2100 2150
+Text Label 1600 1350 0    50   ~ 0
+DDR_DQ8
+Text Label 1600 1150 0    50   ~ 0
+DDR_DQ9
+Text Label 1600 1750 0    50   ~ 0
+DDR_DQ10
+Text Label 1600 1250 0    50   ~ 0
+DDR_DQ11
+Text Label 1600 1650 0    50   ~ 0
+DDR_DQ12
+Text Label 1600 1550 0    50   ~ 0
+DDR_DQ13
+Text Label 1600 1850 0    50   ~ 0
+DDR_DQ14
+Text Label 1600 1450 0    50   ~ 0
+DDR_DQ15
+Text Label 1600 2050 0    50   ~ 0
+DDR_DQS1_P
+Text Label 1600 1950 0    50   ~ 0
+DDR_DQS1_N
+Text Label 1600 2150 0    50   ~ 0
 DDR_DQM1
 Text Label 9100 4050 2    50   ~ 0
 DDR_CKE
@@ -1954,49 +1954,49 @@ Wire Wire Line
 	3250 4950 3250 5050
 Wire Wire Line
 	2200 5050 3250 5050
-Text GLabel 1500 1150 0    50   UnSpc ~ 0
-DDR_DQ0
-Text GLabel 1500 1250 0    50   UnSpc ~ 0
-DDR_DQ1
-Text GLabel 1500 1350 0    50   UnSpc ~ 0
-DDR_DQ2
-Text GLabel 1500 1450 0    50   UnSpc ~ 0
-DDR_DQ3
-Text GLabel 1500 1550 0    50   UnSpc ~ 0
-DDR_DQ4
-Text GLabel 1500 1650 0    50   UnSpc ~ 0
-DDR_DQ5
-Text GLabel 1500 1750 0    50   UnSpc ~ 0
-DDR_DQ6
-Text GLabel 1500 1850 0    50   UnSpc ~ 0
-DDR_DQ7
-Text GLabel 1500 1950 0    50   UnSpc ~ 0
-DDR_DQS0_P
-Text GLabel 1500 2050 0    50   UnSpc ~ 0
-DDR_DQS0_N
-Text GLabel 1500 2150 0    50   UnSpc ~ 0
-DDR_DQM0
-Text GLabel 1500 2400 0    50   UnSpc ~ 0
-DDR_DQ8
-Text GLabel 1500 2500 0    50   UnSpc ~ 0
-DDR_DQ9
-Text GLabel 1500 2600 0    50   UnSpc ~ 0
-DDR_DQ10
-Text GLabel 1500 2700 0    50   UnSpc ~ 0
-DDR_DQ11
-Text GLabel 1500 2800 0    50   UnSpc ~ 0
-DDR_DQ12
 Text GLabel 1500 2900 0    50   UnSpc ~ 0
-DDR_DQ13
+DDR_DQ0
+Text GLabel 1500 2500 0    50   UnSpc ~ 0
+DDR_DQ1
+Text GLabel 1500 2800 0    50   UnSpc ~ 0
+DDR_DQ2
+Text GLabel 1500 2700 0    50   UnSpc ~ 0
+DDR_DQ3
 Text GLabel 1500 3000 0    50   UnSpc ~ 0
-DDR_DQ14
+DDR_DQ4
+Text GLabel 1500 2600 0    50   UnSpc ~ 0
+DDR_DQ5
+Text GLabel 1500 2400 0    50   UnSpc ~ 0
+DDR_DQ6
 Text GLabel 1500 3100 0    50   UnSpc ~ 0
-DDR_DQ15
-Text GLabel 1500 3200 0    50   UnSpc ~ 0
-DDR_DQS1_P
+DDR_DQ7
 Text GLabel 1500 3300 0    50   UnSpc ~ 0
-DDR_DQS1_N
+DDR_DQS0_P
+Text GLabel 1500 3200 0    50   UnSpc ~ 0
+DDR_DQS0_N
 Text GLabel 1500 3400 0    50   UnSpc ~ 0
+DDR_DQM0
+Text GLabel 1500 1350 0    50   UnSpc ~ 0
+DDR_DQ8
+Text GLabel 1500 1150 0    50   UnSpc ~ 0
+DDR_DQ9
+Text GLabel 1500 1750 0    50   UnSpc ~ 0
+DDR_DQ10
+Text GLabel 1500 1250 0    50   UnSpc ~ 0
+DDR_DQ11
+Text GLabel 1500 1650 0    50   UnSpc ~ 0
+DDR_DQ12
+Text GLabel 1500 1550 0    50   UnSpc ~ 0
+DDR_DQ13
+Text GLabel 1500 1850 0    50   UnSpc ~ 0
+DDR_DQ14
+Text GLabel 1500 1450 0    50   UnSpc ~ 0
+DDR_DQ15
+Text GLabel 1500 2050 0    50   UnSpc ~ 0
+DDR_DQS1_P
+Text GLabel 1500 1950 0    50   UnSpc ~ 0
+DDR_DQS1_N
+Text GLabel 1500 2150 0    50   UnSpc ~ 0
 DDR_DQM1
 Text GLabel 3950 3150 2    50   UnSpc ~ 0
 DDR_CLK_P
