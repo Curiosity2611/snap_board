@@ -471,4 +471,114 @@ NoConn ~ 5550 1700
 NoConn ~ 5550 1800
 NoConn ~ 5550 2200
 NoConn ~ 5550 2300
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 60BD154F
+P 3550 6200
+F 0 "FID1" H 3635 6200 50  0000 L CNN
+F 1 "Fiducial" H 3635 6155 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3550 6200 50  0001 C CNN
+F 3 "~" H 3550 6200 50  0001 C CNN
+	1    3550 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 60BD17EB
+P 3950 6200
+F 0 "FID2" H 4035 6200 50  0000 L CNN
+F 1 "Fiducial" H 4035 6155 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3950 6200 50  0001 C CNN
+F 3 "~" H 3950 6200 50  0001 C CNN
+	1    3950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 60BD1A8F
+P 4350 6200
+F 0 "FID3" H 4435 6200 50  0000 L CNN
+F 1 "Fiducial" H 4435 6155 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 4350 6200 50  0001 C CNN
+F 3 "~" H 4350 6200 50  0001 C CNN
+	1    4350 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60BD60F6
+P 1450 6250
+F 0 "H1" H 1550 6250 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1550 6208 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 1450 6250 50  0001 C CNN
+F 3 "~" H 1450 6250 50  0001 C CNN
+	1    1450 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60BD65F1
+P 1850 6250
+F 0 "H2" H 1950 6250 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1950 6208 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 1850 6250 50  0001 C CNN
+F 3 "~" H 1850 6250 50  0001 C CNN
+	1    1850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60BD6EA1
+P 2250 6250
+F 0 "H3" H 2350 6250 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2350 6208 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 2250 6250 50  0001 C CNN
+F 3 "~" H 2250 6250 50  0001 C CNN
+	1    2250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60BD752C
+P 2650 6250
+F 0 "H4" H 2750 6250 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2750 6208 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 2650 6250 50  0001 C CNN
+F 3 "~" H 2650 6250 50  0001 C CNN
+	1    2650 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 60C280C6
+P 3550 6500
+F 0 "FID4" H 3635 6500 50  0000 L CNN
+F 1 "Fiducial" H 3635 6455 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3550 6500 50  0001 C CNN
+F 3 "~" H 3550 6500 50  0001 C CNN
+	1    3550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 60C28406
+P 3950 6500
+F 0 "FID5" H 4035 6500 50  0000 L CNN
+F 1 "Fiducial" H 4035 6455 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3950 6500 50  0001 C CNN
+F 3 "~" H 3950 6500 50  0001 C CNN
+	1    3950 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 60C287D1
+P 4350 6500
+F 0 "FID6" H 4435 6500 50  0000 L CNN
+F 1 "Fiducial" H 4435 6455 50  0001 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 4350 6500 50  0001 C CNN
+F 3 "~" H 4350 6500 50  0001 C CNN
+	1    4350 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
